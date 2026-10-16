@@ -3,7 +3,7 @@ name: Update PlugX Playlist
 on:
   schedule:
     # every 6 hours (token window is ~6h)
-    - cron: "0 */6 * * *"
+    - cron: "0 */4 * * *"
   workflow_dispatch: # manual run button
   push:
     branches:
