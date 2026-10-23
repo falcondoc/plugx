@@ -1,7 +1,7 @@
 #EXTM3U
-#DATE:- 2026-10-23 09:12 UTC
+#DATE:- 2026-10-23 16:39 UTC
 # Source: plugxapi.pages.dev
-# Channels: 1032
+# Channels: 1033
 # Auto-refreshed by GitHub Actions (~every 6 hours)
 
 #EXTINF:-1 tvg-id="1132" tvg-name="Star Plus HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Plus_HD.png" group-title="Entertainment",Star Plus HD
@@ -3461,6 +3461,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Sri_Sankara_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Living_India_News_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="832" tvg-name="10 TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/10_TV.png" group-title="Telugu",10 TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1edbcf52713c5dcaa36bd2d055c40076:6677984bdf8e69590f66d93c37e33c5d
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/10_TV_MOB/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="835" tvg-name="Angel TV HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Angel_TV_HD.png" group-title="English",Angel TV HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -3923,6 +3934,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Bhaarat_Samachar_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Anjan_TV_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="921" tvg-name="Prime News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Prime_News.png" group-title="News",Prime News
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c639fb6131dd51308979bb430766b496:a5385ddcb6e0e69aeac8fe6dbc882006
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Prime_News_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="923" tvg-name="R.Kannada" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/R.Kannada.png" group-title="Kannada",R.Kannada
 #KODIPROP:inputstream=inputstream.adaptive
@@ -11221,17 +11243,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/TheHind24News_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/NationalToday24x7_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3486" tvg-name="MP Today" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/MPToday.png" group-title="Unknown",MP Today
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=83794419bf6a5920b4599c83cdc3c36a:8a8a5d74ce43dcab4246046ee6addde7
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/MPToday_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3490" tvg-name="GTC News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/GTCNews.png" group-title="News",GTC News
 #KODIPROP:inputstream=inputstream.adaptive
