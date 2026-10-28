@@ -1,7 +1,7 @@
 #EXTM3U
-#DATE:- 2026-10-28 14:59 UTC
+#DATE:- 2026-10-28 20:53 UTC
 # Source: plugxapi.pages.dev
-# Channels: 985
+# Channels: 983
 # Auto-refreshed by GitHub Actions (~every 6 hours)
 
 #EXTINF:-1 tvg-id="1132" tvg-name="Star Plus HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Plus_HD.png" group-title="Entertainment",Star Plus HD
@@ -158,6 +158,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_BTS/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="164" tvg-name="Travelxp HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Travel_XP_HD.png" group-title="Lifestyle",Travelxp HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=157cd1bd71a256fe8ab763ba280320e5:6befde8b90b6926423cc83775b8dcb59
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Travel_XP_HD_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="165" tvg-name="Zee Cinema HD" tvg-logo="https://img.media.jio.com/tvpimages/76/6/300330_1768289569650_l_medium.jpg" group-title="Movies",Zee Cinema HD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -4914,6 +4925,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Fateh_TV_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Bansal_News_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="1185" tvg-name="Swadesh News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Swadesh_News.png" group-title="News",Swadesh News
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bb51596fd2cc54b9a7daca4b2cb4ff1e:0ab39edd700d4e174e1aebadb81d9811
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Swadesh_News_MOB/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="1187" tvg-name="Valam TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Valambhakti.png" group-title="Gujarati",Valam TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -6397,17 +6419,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/C_News_Bharat_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeClassicSD_BTS/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="1692" tvg-name="Badakhabar" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Badakhabar.png" group-title="Odia",Badakhabar
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ad40081fcaa85447a758a2baf4d324a6:f215591c2c730589163c0e6e64664c83
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Badakhabar_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="1694" tvg-name="Haryana Beats" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Haryana_Beats.png" group-title="Music",Haryana Beats
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -6783,6 +6794,17 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/prathamkhabar24x7/HLSPartner/index.m3u8?_
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/SVBC3_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="1859" tvg-name="SVBC4" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SVBC4.png" group-title="Tamil",SVBC4
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b570c87dd64255b2890ff4dbf16346da:67a917a6ea91bd16fb626cb88abb1a3c
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/SVBC4_MOB/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="1868" tvg-name="Punjab Plus" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Punjab_Plus.png" group-title="Punjabi",Punjab Plus
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -7093,6 +7115,17 @@ https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_Select_1_BTS/WDVLive/index.m
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="1114" tvg-name="Star Sports Select 2" tvg-logo="https://img.media.jio.com/tvpimages/98/48/301989_1749664475828_l_medium.jpg" group-title="Sports",Star Sports Select 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2b307daa57a75698acfac3e85d4ff8c5:d3c17909d061caa2e0a9c75e195ae3d4,22531ef1b5805a5cb5afc03f33468fac:3dfc474db4086f173d342f20cdc8e04c,0fde10db386c58aaa92f5932092f0039:db555aaa769ad60c24dc1ef9005a056b,2af0f67137b15f5aabcaa3f2661ba59d:f3a33dbc38942246a89ff471d0062c66,c18272dca01056fb83d6ef0cfd0a93ad:52b8bf00ebe06d6e7cdcd221faed846a
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_Select_2_BTS/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="1106" tvg-name="Star Sports 1 HD" tvg-logo="https://img.media.jio.com/tvpimages/76/32/301981_1749665664018_l_medium.jpg" group-title="Sports",Star Sports 1 HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -7203,6 +7236,17 @@ https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_3_BTS/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="1124" tvg-name="Star Sports 1 Tamil" tvg-logo="https://img.media.jio.com/tvpimages/69/73/301995_1749664384503_l_medium.jpg" group-title="Sports",Star Sports 1 Tamil
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a05f788e6082561fad5565ab7457c995:5756af02f8923b1e8767ff375bafb4aa,98d64cf45a5c573bb2748de1b5705d82:77f9ddfe39ed4b3a2c553522b969ec70,c18ddd5e92535dbe966277225da678db:e726b549ff5b0a3de8d462f383cd3380,79ab966495a759bd88fce5cf42fdb1e3:77c116373217d070073ae128bc43aea3,d17006fd6b205e7b8847df113bb213ae:0e20bb3c253b5659a0faae19b102555f
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="3278" tvg-name="Star Sports 1 Telugu HD" tvg-logo="https://img.media.jio.com/tvpimages/19/57/302123_1749663029798_l_medium.jpg" group-title="Sports",Star Sports 1 Telugu HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -7236,6 +7280,39 @@ https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_1_Telugu_BTS/WDVLive/index.m
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_1_Kannada_BTS/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="1122" tvg-name="Star Sports 2 Kannada" tvg-logo="https://img.media.jio.com/tvpimages/11/37/301993_1749664589518_l_medium.jpg" group-title="Sports",Star Sports 2 Kannada
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c1ef762b00a35caea7dcafe355b09610:16538c004d246559a88cba2b57b55857,03962c6586ce5c0db61cd22ea796bb85:06bbcc9cddd4148a754320d5bc8378b8,176a62f9913a554b98a15979c28e2cb7:d482f78bfc4cbfee74b80f0ffdf66d4c,3d52a45ec0f45503a376421d69fba185:1db0ffdc619c49dc048ceb4fffb190c2,30759c7ff28f563d94370739cdd1f31d:a4ea0cf50335265759e68660b2b2e61c
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_2_Kannada_BTS/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="3273" tvg-name="Star Sports 2 Tamil HD" tvg-logo="https://img.media.jio.com/tvpimages/50/43/302120_1749664850896_l_medium.jpg" group-title="Sports",Star Sports 2 Tamil HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bd9dfd385dbc56a99a048f88d3828571:eecf613dad0b8250ffaddc7ba86be68b,75ed4a2f9c96531fbdc16458ec75e24d:d61e00cf48a772526e85dccbdfc166ae,6c41267ed8725915bee0695dd5e76d40:4e2ba836b17c916e7368b30453987f2f,a2e868d50d315372a0e7375ee90375d1:0d885213a727867407ca23037e6ffe53,92cfd893ab8551d59a773afce91fc790:906e0d6c4accf6bdaad9a6167f8ae53a
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports2_Tamil_HD_BTS/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2853" tvg-name="Star Sports 2 Tamil" tvg-logo="https://img.media.jio.com/tvpimages/74/92/301561_1749664725619_l_medium.jpg" group-title="Sports",Star Sports 2 Tamil
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0a0ad7fdf02955d483496e5d5ad41b64:cc1d01a4ccfd47da4f5ff62e20686505,dc4c605a752d535e8c0e31b9a5deae16:21cb8bd7a0606e2dd9fb190ff719f126,a9f12248bf2a5da99366dd6ce07ff0e5:e87623a2552185d5fbe2f227354c2b15,bfb4dda563535486a380c44fecc92015:27bbe04fb5447de6f3286e1030c7b179,b9fae8a03b2750a4b0db12f0f6b65f15:3b1ab225fb8e08c9b59cfd6ededaddc8
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/StarSports2Tamil_BTS/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="3274" tvg-name="Star Sports 2 Telugu HD" tvg-logo="https://img.media.jio.com/tvpimages/84/67/302121_1749664974599_l_medium.jpg" group-title="Sports",Star Sports 2 Telugu HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -7247,6 +7324,39 @@ https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports_1_Kannada_BTS/WDVLive/index.
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports2_Telugu_HD_BTS/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="2852" tvg-name="Star Sports 2 Telugu" tvg-logo="https://img.media.jio.com/tvpimages/41/94/301562_1749665043898_l_medium.jpg" group-title="Sports",Star Sports 2 Telugu
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e85ffc940cfc5c5790a24b714acef1cd:fda416daac7608bfd608ab4c5b724a84,5387c6a9f68a5cecbe1238194db9a82a:14345a3dab1d1bf5e64570b5aa377883,a83960ba4fc854e88c3bcd7f16f08f27:56218453c4619b01c1a0913779234faf,a64b68eea65c5881a0fc5742bd389806:9b446fde7106eb1b7821c5cf251df932,4d3a6feedae059fb8f92f5bcba25128d:46c14f188789753b7befc2707829cb6a
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/StarSports2Telugu_BTS/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="1998" tvg-name="Star Sports Khel" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/StarSportsKhel.png" group-title="Sports",Star Sports Khel
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=906cc35528ca58348e7fed58f8796687:3a1eaff9da6a0083567fb1ea1eaa21f5,1dfe1c29b8f15ab3a158bb27eb5b8d3f:432ff00824d61ff1da1348cc53e0968c,942646c32cde5325a7c33b137cf7d46e:ebb1edf4d1ca69738d8cf378a00ad35d,2898824f2440509698d04f0109f1d285:58e2fbc4e5ae22f973c21c402340debc,1eb81f72a86d56c3bdfe905c2e987d1d:4720e2ac970828d2befb2cf838d486fb
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/StarSportsKhel_BTS/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="1999" tvg-name="Raftaar Media" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Raftaar_Media.png" group-title="News",Raftaar Media
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=de73fc3aacea532bacbaa1b865319306:7bf1dfb1b9ddb500ee334f511cc9593a
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Raftaar_Media_MOB/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="2002" tvg-name="Aadinath TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Aadinath_TV.png" group-title="Gujarati",Aadinath TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -7257,6 +7367,17 @@ https://jiotvpllive.cdn.jio.com//bpk-tv/Star_Sports2_Telugu_HD_BTS/WDVLive/index
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Aadinath_TV_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2003" tvg-name="3.0 TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/3_0_TV.png" group-title="English",3.0 TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=63b760600b975e5c99218e4cde3147d4:44279cdeb88e7ded20a886f4128119f1
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/3_0_TV_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="2004" tvg-name="Shekinah TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Shekinah.png" group-title="Malayalam",Shekinah TV
 #KODIPROP:inputstream=inputstream.adaptive
@@ -7390,6 +7511,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/RS_Bharat_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Merchant_Records_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="2078" tvg-name="Shemaroo Umang" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Shemaroo_Umang.png" group-title="Entertainment",Shemaroo Umang
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5490bfda5a1259dc81cac2b8bc29136b:e0b2192dd81105e3012a33a79c3c62d3
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Shemaroo_Umang_MOB/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="2079" tvg-name="Bharat 24" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Bharat_24.png" group-title="News",Bharat 24
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -7400,6 +7532,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Merchant_Records_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Bharat_24_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2081" tvg-name="TV27 News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/TV27_News.png" group-title="News",TV27 News
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c77a3cd4fc9a57e6b468db409b7463a4:882705f84ffbba3b1acba8571ea35d98
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/TV27_News_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="2082" tvg-name="22Scope News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/22Scope_News.png" group-title="News",22Scope News
 #KODIPROP:inputstream=inputstream.adaptive
@@ -7501,6 +7644,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Bhojpuri_Junction_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Jio_Specials_HD_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2252" tvg-name="Desi Music Station" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Desi_Music_Station.png" group-title="Music",Desi Music Station
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0af751488d6c5c8a85822e8f2df2b773:c7de4bbc383ba63986bff966aee97a7d
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Desi_Music_Station_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="2253" tvg-name="Nakshatra Digital TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nakshatra_Digital_TV.png" group-title="Kannada",Nakshatra Digital TV
 #KODIPROP:inputstream=inputstream.adaptive
@@ -7656,6 +7810,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/M_Nadu_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Spondon_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="2436" tvg-name="Prime 9 News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Prime_9_News.png" group-title="Telugu",Prime 9 News
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=954ecbf5935b5f42b62d75af8b475ab1:ee5a3f735af98df545d9a9fb83e8b109
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Prime_9_News_MOB/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="2437" tvg-name="Wild Earth" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Wild_Earth.png" group-title="English",Wild Earth
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -7677,6 +7842,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Wild_Earth_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_Kannada_News_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2743" tvg-name="Power TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Power_TV.png" group-title="Kannada",Power TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3e8309a2045853799475a66b8cc2f5c9:49e5f52d0ebb49eae94786f229f3bc7e
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Power_TV_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="2750" tvg-name="Saga Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Saga_Music.png" group-title="Punjabi",Saga Music
 #KODIPROP:inputstream=inputstream.adaptive
@@ -7710,6 +7886,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Saga_Music_Haryanvi_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Ghaint_Punjab_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2753" tvg-name="YRF Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/YRF_Music.png" group-title="Music",YRF Music
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bc1fc677aac354d7ad95625feaa6860d:f2b14b0de7761859e9a3caa196b6c239
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/YRF_Music_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="2948" tvg-name="Zee Zest HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeZestHD.png" group-title="Lifestyle",Zee Zest HD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -7777,16 +7964,16 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Brave_TV_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Sacchi_Report_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="2768" tvg-name="Jothi TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Jothi_TV.png" group-title="Tamil",Jothi TV
+#EXTINF:-1 tvg-id="2770" tvg-name="Har Khabar" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Har_Khabar.png" group-title="News",Har Khabar
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fa875e7aa00e5f2186ba07232a318f7b:1edd25af2b8fa6a6b18e5630285ae234
+#KODIPROP:inputstream.adaptive.license_key=00b264d448c4521dada599665568a087:0a1019ff0fc84b5f3bae8f2e25e007fe
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
 #EXTVLCOPT:http-user-agent=Premium Plugx
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Jothi_TV_MOB/WDVLive/index.mpd
+https://jiotvmblive.cdn.jio.com/bpk-tv/Har_Khabar_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="2772" tvg-name="India Daily 24x7" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/India_Daily_24x7.png" group-title="News",India Daily 24x7
 #KODIPROP:inputstream=inputstream.adaptive
@@ -7832,28 +8019,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Power_Kids_TV_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Grace_TV_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="2777" tvg-name="Asian News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Asian_News.png" group-title="News",Asian News
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=259a61aa50395d368bbe25b33d0bc4fa:fb14c84b9d34f6d83524b80db280e48d
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Asian_News_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="2778" tvg-name="Tabbar Hits" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Tabbar_Hits.png" group-title="Punjabi",Tabbar Hits
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9e2e20d23645514eb84ff7d1cd1a6190:865cb4db34755f494ffb98fd59d4a5db
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Tabbar_Hits_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="2779" tvg-name="Red Bull TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Red_Bull_TV.png" group-title="Sports",Red Bull TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -7864,6 +8029,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Tabbar_Hits_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Red_Bull_TV_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2780" tvg-name="R Bangla" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/R_Bangla.png" group-title="Bangla",R Bangla
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=db7ed1ec3a415ee6ba26dca9f8e491d2:587401e318cf2c3d39107c7e58de9403
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/R_Bangla_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1261" tvg-name="Calcutta News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Calcutta_News.png" group-title="Bengali",Calcutta News
 #KODIPROP:inputstream=inputstream.adaptive
@@ -7919,6 +8095,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Big_TV_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/ISKCON_Bangalore_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2851" tvg-name="IN24 Live" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/IN24_Live.png" group-title="News",IN24 Live
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b0eb856017555d56b332232518ed8607:29b55df4881adb5fd105576567f1db3e
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/IN24_Live_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="2854" tvg-name="KCM" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/KCM.png" group-title="English",KCM
 #KODIPROP:inputstream=inputstream.adaptive
@@ -8074,17 +8261,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/TV45_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Public_First_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="2958" tvg-name="Tamilan Television" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Tamilan_Television.png" group-title="Tamil",Tamilan Television
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4c6ba6edc54359d798b04e02252b7e80:853a6d26d12adf97be4bceaf45fdfc7d
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Tamilan_Television_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3004" tvg-name="Velicham Tv" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Velicham_Tv.png" group-title="Tamil",Velicham Tv
 #KODIPROP:inputstream=inputstream.adaptive
@@ -8339,6 +8515,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Prime_Asia_HD_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Janam_Tamil_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="3048" tvg-name="BVG" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/BVG.png" group-title="Educational",BVG
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1025acf964795689982726e2d16a73c5:d88575df3e3d1adb7a82da65f0000aa6
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/BVG_MOB/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="3049" tvg-name="TNI Awaaz" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/TNI_Awaaz.png" group-title="News",TNI Awaaz
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -8404,17 +8591,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/PR_News_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Nav_Sanskruti_News_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3065" tvg-name="Bharat Nation" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Bharat_Nation.png" group-title="News",Bharat Nation
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ab2060c911b05be789ccb0b1edd3005b:e4a83467bc3967c599a740d32483c0f9
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Bharat_Nation_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3066" tvg-name="Today 24 News UPUK" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Today_TV24_UPUK.png" group-title="News",Today 24 News UPUK
 #KODIPROP:inputstream=inputstream.adaptive
@@ -8526,17 +8702,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Naxatra_News_Hindi_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Sai_TV_Telugu_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="3088" tvg-name="Sun Neo HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SUN_Neo.png" group-title="Tamil",Sun Neo HD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ff422feb5d8b5e1f848c86e19ce1aada:5d1b91372c81c9963d48d6382ae3d17a
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/SUN_Neo_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="3090" tvg-name="KBC News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/kbcnews.png" group-title="News",KBC News
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -8558,17 +8723,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/kbcnews/HLSPartner/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Gold_Romance_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3098" tvg-name="Star Gold Thrills" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_Thrills.png" group-title="Movies",Star Gold Thrills
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f71f5d0858e65f2286bf1eef368735d3:38ded0350222f3de77f107aee4b757d9
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Gold_Thrills_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3104" tvg-name="Smriti Patra TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Smriti_Patra.png" group-title="English",Smriti Patra TV
 #KODIPROP:inputstream=inputstream.adaptive
@@ -8626,17 +8780,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/bhakthisiri/HLSPartner/index.m3u8
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Garvi_Gujarat_Gujarati_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="3110" tvg-name="SB News 24x7" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SB_News_24x7.png" group-title="English",SB News 24x7
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=718deb0f9e7f57f2a00f51b4e1ef7f62:ae5814ebfacb93470b061e962a769af0
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/SB_News_24x7_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="3111" tvg-name="ATV India News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ATV_INDIA_NEWS.png" group-title="English",ATV India News
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -8648,16 +8791,27 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/SB_News_24x7_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/ATV_INDIA_NEWS_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="3113" tvg-name="Jk Samachar News 24x7" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Jk_Samachar_24x7.png" group-title="English",Jk Samachar News 24x7
+#EXTINF:-1 tvg-id="3115" tvg-name="Jay Jagannath" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Jay_Jagannath.png" group-title="Odia",Jay Jagannath
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8f9569cc299656f98aead26746750ed9:55b05a6d5f4114c3ae63ec8cf1595e6e
+#KODIPROP:inputstream.adaptive.license_key=52583c0857a657dabc597df28371f9eb:417cb4b124ad28ceb1fe6a0d7cefb1c5
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
 #EXTVLCOPT:http-user-agent=Premium Plugx
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Jk_Samachar_24x7_MOB/WDVLive/index.mpd
+https://jiotvmblive.cdn.jio.com/bpk-tv/Jay_Jagannath_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="3117" tvg-name="Rajya 24 News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Rajya_24_News.png" group-title="Unknown",Rajya 24 News
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=db06925f30775735b55c6372438c19ff:a15fed67a948d1364059926ba42a364d
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Rajya_24_News_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3118" tvg-name="DD Swayam Prabha 23" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_SWAYAM_PRABHA_23.png" group-title="English",DD Swayam Prabha 23
 #KODIPROP:inputstream=inputstream.adaptive
@@ -8747,6 +8901,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_SWAYAM_PRABHA_29_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/DD_SWAYAM_PRABHA_30_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="3126" tvg-name="DD Swayam Prabha 31" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_SWAYAM_PRABHA_31.png" group-title="English",DD Swayam Prabha 31
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f85e5defe1fe50d3996e6f77b1ed20a1:adb5d5999fc29317e04a8fd8462c5ed5
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/DD_SWAYAM_PRABHA_31_MOB/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="3127" tvg-name="DD Swayam Prabha 32" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_SWAYAM_PRABHA_32.png" group-title="English",DD Swayam Prabha 32
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -8779,6 +8944,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_SWAYAM_PRABHA_33_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/DD_SWAYAM_PRABHA_34_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="3130" tvg-name="DD Swayam Prabha 35" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_SWAYAM_PRABHA_35.png" group-title="English",DD Swayam Prabha 35
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=92d1aed8070256e1959668399ca69ec2:b69152dc18f5b987f9efccc5d7fdd33c
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/DD_SWAYAM_PRABHA_35_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3131" tvg-name="DD Swayam Prabha 36" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_SWAYAM_PRABHA_36.png" group-title="English",DD Swayam Prabha 36
 #KODIPROP:inputstream=inputstream.adaptive
@@ -8901,17 +9077,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_SATHEE_5_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/DD_SATHEE_6_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="3142" tvg-name="DD Sathee 7" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_SATHEE_7.png" group-title="English",DD Sathee 7
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f2c8d85dfc405ff1867770c131c3b40d:2e4cb71a1605652983ebf153bbcc604f
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/DD_SATHEE_7_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="3143" tvg-name="Mahaa Max" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Mahaa_Max.png" group-title="English",Mahaa Max
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -8956,17 +9121,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/AWSN_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/News_State_PB_HR_HM_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="3154" tvg-name="Bloomberg Originals" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="Unknown",Bloomberg Originals
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f03b0e6217615da79f9dabd052abfff3:26ede5ea6a37495420fbeadb7e1a0dd4
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Bloomberg_Originals_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="3155" tvg-name="Bloomberg TV+" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Bloomberg_TV.png" group-title="Unknown",Bloomberg TV+
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -8977,17 +9131,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Bloomberg_Originals_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Bloomberg_TV_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3162" tvg-name="Prabhu Vani Tv" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Prabhu_Vani_Tv.png" group-title="English",Prabhu Vani Tv
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=758cd45c5d135f43a5bcad82249ce30f:03c1e3dad448a99c98076a09113fbe4e
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Prabhu_Vani_Tv_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3163" tvg-name="Khabar 24x7 News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Khabar_24x7_News.png" group-title="English",Khabar 24x7 News
 #KODIPROP:inputstream=inputstream.adaptive
@@ -9011,6 +9154,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Khabar_24x7_News_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Shri_News_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="3166" tvg-name="Live Times" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Live_Times.png" group-title="English",Live Times
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b3d2d5af73735886b66d4f39eb047e51:d2c10b774cdd6650cd6eec6da75ca983
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Live_Times_MOB/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="3167" tvg-name="Lok manch Marathi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Lok_manch_Marathi.png" group-title="English",Lok manch Marathi
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -9032,6 +9186,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Lok_manch_Marathi_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Sky_India_Tv_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="3170" tvg-name="News 24 Tass" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/News_24_Tass.png" group-title="English",News 24 Tass
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e4b00bae94ae505c932243c9b65b14da:dccfbc1ad11a775ab990ea0968daa241
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/News_24_Tass_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3171" tvg-name="Khabar 70" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Khabar_70.png" group-title="English",Khabar 70
 #KODIPROP:inputstream=inputstream.adaptive
@@ -9088,6 +9253,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Telugu_Naaptol_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Adhya_Bhakti_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="3179" tvg-name="News Marathi 24x7" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/newsmarathi.png" group-title="Marathi",News Marathi 24x7
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0000:0000
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/newsmarathi/HLSPartner/index.m3u8
+
 #EXTINF:-1 tvg-id="3181" tvg-name="News Nation 81" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/News_Nation_81.png" group-title="English",News Nation 81
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -9143,17 +9319,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/News_Malayalam_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Kolkata_News_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="3186" tvg-name="Public Asia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Public_Asia.png" group-title="English",Public Asia
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=dc1c90a694175efa9180385e0ea71559:7a93598fcec02b73e2f61adb4b669f08
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Public_Asia_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="3187" tvg-name="Prabhu Sandesh" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Prabhu_Sandesh.png" group-title="English",Prabhu Sandesh
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -9175,17 +9340,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Prabhu_Sandesh_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Shesh_Khabar_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3189" tvg-name="Chanakya News India Rajasthan" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Chanakya_News_Ind_Raj.png" group-title="English",Chanakya News India Rajasthan
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8a301eb3d3cb59d3a9ecf469061a236b:e3c92af5e513775191d5195fdc8eedd8
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Chanakya_News_Ind_Raj_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3191" tvg-name="S Bharat" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Bharat_Times.png" group-title="News",S Bharat
 #KODIPROP:inputstream=inputstream.adaptive
@@ -9220,28 +9374,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Aone_News_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Patnagar_Network_News_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="3203" tvg-name="Nation Khabar" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_Khabar.png" group-title="English",Nation Khabar
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=315cea19aefe5213a3aaea6a8a5a5435:027e515feb201dd5fd0dd18f81d747dc
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Nation_Khabar_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3204" tvg-name="Penta TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Penta_TV.png" group-title="Sports",Penta TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=bd38f502b44b5aec8196ac4aebd3ca7c:b26a13589bc487b06f421a6bb00b2100
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Penta_TV_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="3213" tvg-name="Gusto TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Gusto_TV.png" group-title="English",Gusto TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -9263,6 +9395,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Gusto_TV_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Vertent_Samachar_Plus_24x7_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="3217" tvg-name="NE News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/NE_News.png" group-title="English",NE News
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1dd600e92ea850ba981e13d5413dd29b:b073010786b8daf553149a4e713698ef
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/NE_News_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3218" tvg-name="STV24 News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/STV24_News.png" group-title="English",STV24 News
 #KODIPROP:inputstream=inputstream.adaptive
@@ -9296,17 +9439,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Prajatantra_TV_Bharat_MOB/WDVLive/index.m
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Prime_Bharat_News_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3221" tvg-name="Sri Naga Sai Mandir" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sri_Naga_Sai_Mandir.png" group-title="English",Sri Naga Sai Mandir
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f8387c0945d25bc8ab05755397d10beb:14df007e00e0a8ae51d1f84e52b43243
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Sri_Naga_Sai_Mandir_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3223" tvg-name="Shark Tank India S5" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SharkTankIndia.png" group-title="Entertainment",Shark Tank India S5
 #KODIPROP:inputstream=inputstream.adaptive
@@ -9396,17 +9528,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Bhakti_Dhara_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Namma_Bangalore_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="3239" tvg-name="Mahaa Bhakthi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Mahaa_Bhakthi.png" group-title="English",Mahaa Bhakthi
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=471b81cd3da052c2b2eb2c151d58cb39:499d8af2ec86221f0cdc9d2b756035a7
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Mahaa_Bhakthi_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="3240" tvg-name="News X World" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/News_X_World.png" group-title="English",News X World
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -9439,17 +9560,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/BHP_News_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Pickleball_Now_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3244" tvg-name="Sanatan Bharat" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sanatan_Bharat.png" group-title="Devotional",Sanatan Bharat
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c70ab1441d605da89c3bfe72f9670db5:01bd02dcb6fcf8039ec45bd247341bee
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Sanatan_Bharat_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3255" tvg-name="Voice TV Urdu" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Voice_Urdu_TV.png" group-title="English",Voice TV Urdu
 #KODIPROP:inputstream=inputstream.adaptive
@@ -9495,16 +9605,27 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Sanatan_Sandesh_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Samrat_News_TV_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="1131" tvg-name="Star Vijay Super" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Vijay_Super.png" group-title="Tamil",Star Vijay Super
+#EXTINF:-1 tvg-id="3265" tvg-name="Nation World News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nation_Star_News.png" group-title="English",Nation World News
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=71968179329e521c9a4b24b662c8d407:8419d398385bf765d2d77299d9fdfc04,0001ef434d7714e9fab7070fc087ea47:8b49e49cdb857d8686c656e360b3bfb2,31cd28466739deef703ac46ebc147b03:bce54a3a6fd3ab184cf47efbbdb5bfee,3a9f7802b9ed74f2ec5a85dcd0747bed:e70924780a858882237f45c0da1f909d,ad526e3a2d273c0d8048cbee351ee65d:d353b1ce10dfb552f35ec8d5e025c69f,737e9cc83a8a5a55a002fa3ca457244c:a0285e3041ff5f4efae5361e12f759db
+#KODIPROP:inputstream.adaptive.license_key=e51b1be2f92750b29c8a604271fab56c:a22b8e9c171a44206da9ef543481fcc1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
 #EXTVLCOPT:http-user-agent=Premium Plugx
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Vijay_Super_BTS/WDVLive/index.mpd
+https://jiotvmblive.cdn.jio.com/bpk-tv/Nation_Star_News_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="3266" tvg-name="Vijay Super HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Vijay_Super_HD.png" group-title="Tamil",Vijay Super HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=accd6f6ff0f55c1db84694101db6fd2d:64b60808649a36fff96fd10016cf0add
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Vijay_Super_HD_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3267" tvg-name="Star Kiran" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Kiran.png" group-title="Odia",Star Kiran
 #KODIPROP:inputstream=inputstream.adaptive
@@ -9550,17 +9671,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Vijay_Takkar_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_Select_BTS/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="3279" tvg-name="OM TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/OM_TV.png" group-title="English",OM TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fda1385956445199a867364b266de2f1:8b85980e71af02b532054322d846b468
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/OM_TV_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="3280" tvg-name="Soochna India" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Soochna_India.png" group-title="English",Soochna India
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -9571,17 +9681,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/OM_TV_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Soochna_India_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3281" tvg-name="Mahua Play" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Mahua_Play.png" group-title="English",Mahua Play
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b9c22fe301f851fda9dd724956d2ba59:ede2e06a4d73e8163b6517c6004dd815
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Mahua_Play_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3282" tvg-name="Mahua Khabar" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/mahuakhabar.png" group-title="News",Mahua Khabar
 #KODIPROP:inputstream=inputstream.adaptive
@@ -9627,17 +9726,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Rozana_Spokesman_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/naturescape-a003s-dhaka/HLSPartner/index.m3u8
 
-#EXTINF:-1 tvg-id="3291" tvg-name="NBC24 News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/NBC24_News.png" group-title="English",NBC24 News
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9e4f557b09715baea2c1d63fe0c22f44:6e28c497df5d0f5b64a236b1e7bf3876
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/NBC24_News_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="3292" tvg-name="NBS Live TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/NBS_Live_TV.png" group-title="English",NBS Live TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -9670,6 +9758,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Anand_TV_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Mahotsav_TV_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="3299" tvg-name="News_Plus_24x7" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/News_Plus_24x7.png" group-title="English",News_Plus_24x7
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6f6ec0c8d1f0599d9978edeaa8ef85d9:9e0fc109fab938c850ae5d04a0abb7fe
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/News_Plus_24x7_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3310" tvg-name="MNS News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/MNS_News.png" group-title="English",MNS News
 #KODIPROP:inputstream=inputstream.adaptive
@@ -9715,6 +9814,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/LOVEWORLD_TV_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Gujarat_Wild_TV_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="3317" tvg-name="Zillar Barta" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/zillarbarta.png" group-title="Bengali",Zillar Barta
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0000:0000
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/zillarbarta/HLSPartner/index.m3u8
+
 #EXTINF:-1 tvg-id="3319" tvg-name="ZB Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/zbmusic.png" group-title="Bengali",ZB Music
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -9725,17 +9835,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Gujarat_Wild_TV_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/zbmusic/HLSPartner/index.m3u8
-
-#EXTINF:-1 tvg-id="3320" tvg-name="ZB Bhakti" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/zbbhakti.png" group-title="Bengali",ZB Bhakti
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0000:0000
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/zbbhakti/HLSPartner/index.m3u8
 
 #EXTINF:-1 tvg-id="3321" tvg-name="ZB Cartoon" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/zbcatun.png" group-title="Bengali",ZB Cartoon
 #KODIPROP:inputstream=inputstream.adaptive
@@ -9891,17 +9990,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/blyflx/HLSPartner/index.m3u8
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/blygld/HLSPartner/index.m3u8
 
-#EXTINF:-1 tvg-id="3343" tvg-name="NH BollyRaga" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/blyrag.png" group-title="Unknown",NH BollyRaga
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0000:0000
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/blyrag/HLSPartner/index.m3u8
-
 #EXTINF:-1 tvg-id="3345" tvg-name="Superfine Films" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/p_supjio.png" group-title="Unknown",Superfine Films
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -9912,17 +10000,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/blyrag/HLSPartner/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/p_supjio/HLSPartner/index.m3u8
-
-#EXTINF:-1 tvg-id="3346" tvg-name="Yahoo Finance" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Yahoo_Finance.png" group-title="Unknown",Yahoo Finance
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0000:0000
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Yahoo_Finance/HLSPartner/index.m3u8
 
 #EXTINF:-1 tvg-id="3353" tvg-name="NE Bharat24" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/NE_Bharat24.png" group-title="Unknown",NE Bharat24
 #KODIPROP:inputstream=inputstream.adaptive
@@ -9935,17 +10012,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Yahoo_Finance/HLSPartner/index.m3u8
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/NE_Bharat24_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="3354" tvg-name="Fast1" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Fast1.png" group-title="Unknown",Fast1
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0ce03addc6115028a24d3a85def54f52:31c280c55d61e526c087d3c727017592
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Fast1_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="3361" tvg-name="Shri Shyam TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Shri_Shyam_TV.png" group-title="Unknown",Shri Shyam TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -9956,6 +10022,28 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Fast1_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Shri_Shyam_TV_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="3365" tvg-name="Newz Room Gujarat" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Newz_Room_Gujarat.png" group-title="Gujarati",Newz Room Gujarat
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ff22a230efe35caba20c2e16d24da786:a9a62a441822a321035e35e527c86a36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Newz_Room_Gujarat_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="3366" tvg-name="Godlywood Studios" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Godlywood_Studios.png" group-title="Unknown",Godlywood Studios
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ab532da9526b5de0a263033495697117:3893c1a83cabb8e1299313bd66358fd8
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Godlywood_Studios_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3367" tvg-name="Mega9TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Mega9TV.png" group-title="Unknown",Mega9TV
 #KODIPROP:inputstream=inputstream.adaptive
@@ -10000,39 +10088,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/TV13_Gujarati_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Gospel_TV_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3371" tvg-name="Ashwaveega News 24x7" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ashwaveega_News_24x7.png" group-title="News",Ashwaveega News 24x7
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a7c74236580f5658b6b07585cdfa6354:08e8a89d618180b457f1e759888c5417
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Ashwaveega_News_24x7_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="514" tvg-name="Sony Ten 1" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_1.png" group-title="Sports",Sony Ten 1
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3394be91407c5fe99d784d2f2d6d4a12:58665e1df41f9f22ed73c56384bb3f51
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Ten_1_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="891" tvg-name="Sony Ten 2 HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten2_HD.png" group-title="Sports",Sony Ten 2 HD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=91fce77f2f8056f084ed961c7ebe86ed:8214bd5eb6c21444e8ea644824affd79
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Ten2_HD_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="523" tvg-name="Sony Ten 2" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_2.png" group-title="Sports",Sony Ten 2
 #KODIPROP:inputstream=inputstream.adaptive
@@ -10133,6 +10188,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/G18_News_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Headlines_Kolkata_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="3380" tvg-name="Pradesh24 Gujarati" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Pradesh24_Gujarati.png" group-title="Gujarati",Pradesh24 Gujarati
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=88ef0baa4c5f5e3395b0aa6d5ab9706a:feb4b1c0974044b968e29e86e053eb05
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Pradesh24_Gujarati_MOB/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="3381" tvg-name="Brio TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Brio_TV.png" group-title="Unknown",Brio TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -10165,17 +10231,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/EPIC_TV_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Nazara_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3384" tvg-name="EPIC Bhojpuri" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Filamchi_Bhojpuri.png" group-title="Bhojpuri",EPIC Bhojpuri
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cff5580392c052a78302a940e350b02b:c4983c9e5cb98a14973664d0791a15bb
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Filamchi_Bhojpuri_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3385" tvg-name="EPIC Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Gubbare.png" group-title="Kids",EPIC Kids
 #KODIPROP:inputstream=inputstream.adaptive
@@ -10298,6 +10353,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_4_Telugu_MOB/WDVLive/index
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_5_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="3402" tvg-name="DocuBay" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DocuBay.png" group-title="Unknown",DocuBay
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c59370bdd4505d7b9a2d4390306b470b:c21191a3483b6b75a81bd7a1c85f53d4
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/DocuBay_MOB/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="3405" tvg-name="BHP News Gujarati" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/BHP_News_Gujarat.png" group-title="Gujarati",BHP News Gujarati
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -10331,16 +10397,27 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/SonyMAX1_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/SonyYAYKan_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="3427" tvg-name="Sansad TV 1 HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SansadTV1HD.png" group-title="English",Sansad TV 1 HD
+#EXTINF:-1 tvg-id="3423" tvg-name="SONY YAY Malayalam" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyYAYMal.png" group-title="Malayalam",SONY YAY Malayalam
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=041acf444b785d3aaee9321d65177023:c97ff477dd31236031b5e178c3b1e1df
+#KODIPROP:inputstream.adaptive.license_key=1a968e4de13756e489eb98388b1c502c:114073cdb115690780b616e729ff9cd1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
 #EXTVLCOPT:http-user-agent=Premium Plugx
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/SansadTV1HD_MOB/WDVLive/index.mpd
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyYAYMal_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="3425" tvg-name="Discovery Malayalam" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DiscoveryMal.png" group-title="Infotainment",Discovery Malayalam
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=dbf8178ba166517a9b07fc861defc24e:e20c04d3cc7288088ff4044bbcdf851a
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryMal_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3428" tvg-name="Discovery HD Bengali" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DiscoveryHDBen.png" group-title="Bengali",Discovery HD Bengali
 #KODIPROP:inputstream=inputstream.adaptive
@@ -10353,28 +10430,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/SansadTV1HD_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryHDBen_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="3429" tvg-name="Discovery Kannada" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DiscoveryKan.png" group-title="Kannada",Discovery Kannada
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d094fa9ea705504491d8111366d91cff:5ffd2266e9ca4cd4af743ed40ba93b6a
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryKan_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3430" tvg-name="Discovery Tamil" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DiscoveryTam.png" group-title="Tamil",Discovery Tamil
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fdcbd5e45bab572087707837e3d1a332:2b2edfd52f3907df40da2d0b7e12892f
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryTam_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="3431" tvg-name="Discovery HD Malayalam" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DiscoveryHDMal.png" group-title="Malayalam",Discovery HD Malayalam
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -10385,17 +10440,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryTam_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryHDMal_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3432" tvg-name="Discovery HD Kannada" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DiscoveryHDKan.png" group-title="Infotainment",Discovery HD Kannada
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=69fd13d540b352fbbc28992effebfcff:7f0b1973b86719f56e18d9704a5a707b
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryHDKan_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3433" tvg-name="Discovery Kids Kannada" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DiscoveryKidsKan.png" group-title="Kannada",Discovery Kids Kannada
 #KODIPROP:inputstream=inputstream.adaptive
@@ -10429,28 +10473,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/IDHDHindi_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/IDHDEnglish_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3436" tvg-name="Cartoon Network HD+ Hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/CNHDHindi.png" group-title="Kids",Cartoon Network HD+ Hindi
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6d03062a210e5ca5bebe18295a7ed53f:2d5145403548d142cbe2a5f1e25b0d1f
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDHindi_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3438" tvg-name="Nation News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/nationnews.png" group-title="News",Nation News
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0000:0000
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/nationnews/HLSPartner/index.m3u8
 
 #EXTINF:-1 tvg-id="3444" tvg-name="Discovery HD Hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DiscoveryHDHin.png" group-title="Infotainment",Discovery HD Hindi
 #KODIPROP:inputstream=inputstream.adaptive
@@ -10507,27 +10529,16 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryKidsTel_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryKidsMal_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="3450" tvg-name="Animal Planet Tamil" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/AnimalPlanetTam.png" group-title="Tamil",Animal Planet Tamil
+#EXTINF:-1 tvg-id="3451" tvg-name="Animal Planet HD Hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/AnimalPlanetHDHin.png" group-title="Infotainment",Animal Planet HD Hindi
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=062bcd3dcd5a58fa9786324d4953f990:c888f2447dec7e13d91256fae731eb97
+#KODIPROP:inputstream.adaptive.license_key=6920695b57925f3a94588dfee72e8b1c:9b5192a1a4b5b408291ba2fe104d6ac8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
 #EXTVLCOPT:http-user-agent=Premium Plugx
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/AnimalPlanetTam_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3452" tvg-name="Investigation Discovery English" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/IDEnglish.png" group-title="Infotainment",Investigation Discovery English
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4b962057a46e5a0a9ba877a71b3e4bc8:3d7327305c44a64dee1bf6f9a3618bf8
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/IDEnglish_MOB/WDVLive/index.mpd
+https://jiotvmblive.cdn.jio.com/bpk-tv/AnimalPlanetHDHin_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3453" tvg-name="Discovery Science Hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DiscoveryScienceHin.png" group-title="Infotainment",Discovery Science Hindi
 #KODIPROP:inputstream=inputstream.adaptive
@@ -10561,17 +10572,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/CNMarathi_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDKannada_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3456" tvg-name="Cartoon Network HD+ Malayalam" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/CNHDMalayalam.png" group-title="Malayalam",Cartoon Network HD+ Malayalam
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5fd3f72fce025c14baa7be29e6fac996:ce23a4907a071c4296b4f89e5c7bfc22
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDMalayalam_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3457" tvg-name="Cartoon Network HD+ Marathi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/CNHDMarathi.png" group-title="Kids",Cartoon Network HD+ Marathi
 #KODIPROP:inputstream=inputstream.adaptive
@@ -10650,6 +10650,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/NationUpdate_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/TimesofMaharashtra_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="3464" tvg-name="Guarantee News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/GuaranteeNews.png" group-title="News",Guarantee News
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=afaa52571c9c5c07bb7fbe30ac2a18de:8073c229d88f5f5f836eaabe89ce8593
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
+#EXTVLCOPT:http-user-agent=Premium Plugx
+#EXTVLCOPT:http-referrer=https://www.jiotv.com/
+#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/GuaranteeNews_MOB/WDVLive/index.mpd
+
 #EXTINF:-1 tvg-id="3467" tvg-name="Green Gold TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/greengold.png" group-title="Kids",Green Gold TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -10660,17 +10671,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/TimesofMaharashtra_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/greengold/HLSPartner/index.m3u8
-
-#EXTINF:-1 tvg-id="3470" tvg-name="GTC Punjabi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/GTCPunjabi.png" group-title="Unknown",GTC Punjabi
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=69c846a9b97f59e2b453d568bb6b16d3:8f0e01b9017eeec782e8c877349099e8
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/GTCPunjabi_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3471" tvg-name="Punjabi Shorts" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/PunjabiShorts.png" group-title="Unknown",Punjabi Shorts
 #KODIPROP:inputstream=inputstream.adaptive
@@ -10715,17 +10715,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/NationalToday24x7_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/MPToday_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3490" tvg-name="GTC News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/GTCNews.png" group-title="News",GTC News
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6f1de38ba45e5018b0281a1702bac8c4:3999eccd455e350a2f3ec725fcbf817f
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/GTCNews_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3493" tvg-name="Shree Sanatan TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ShreeSanatan_TV.png" group-title="Unknown",Shree Sanatan TV
 #KODIPROP:inputstream=inputstream.adaptive
@@ -10847,15 +10836,4 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/UIPMPentathlonWC_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-referrer=https://www.jiotv.com/
 #EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Maa_Movies_BTS/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="2757" tvg-name="Zee Zest HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Zest_HD.png" group-title="Movies",Zee Zest HD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a19c52e13a755afaa457a3c8488f4822:89dc06fb26e0fc72e9b9a1226073c8a2
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium Plugx&Referer=https://www.jiotv.com/&Origin=https://www.jiotv.com
-#EXTVLCOPT:http-user-agent=Premium Plugx
-#EXTVLCOPT:http-referrer=https://www.jiotv.com/
-#EXTHTTP:{"User-Agent": "Premium Plugx","Referer": "https://www.jiotv.com/","Origin": "https://www.jiotv.com"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeZestHD_BTS/WDVLive/index.mpd
 
