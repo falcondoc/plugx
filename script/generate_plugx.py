@@ -2,9 +2,7 @@
 """
 PlugX M3U generator
 Pulls a fresh playlist from premiumplugx.top (live cookies + keys)
-and normalizes it for Kodi / VLC / OTT Navigator.
-
-GitHub Actions refreshes every few hours.
+and keeps the same working format the source uses so players play all channels.
 """
 
 from __future__ import annotations
@@ -13,13 +11,10 @@ import datetime as dt
 import json
 import re
 import time
-import urllib.error
 import urllib.request
 from pathlib import Path
 
-# ---------- CONFIG ----------
 SOURCE_URL = "https://premiumplugx.top/mylive/playlist.php"
-FALLBACK_API = "https://plugxapi.pages.dev/api"  # list only (creds broken)
 
 _cwd = Path.cwd()
 if (_cwd / "script").is_dir():
@@ -30,11 +25,9 @@ OUTPUT = ROOT / "plugx.m3u"
 META_OUTPUT = ROOT / ".last_check"
 ROOT.mkdir(parents=True, exist_ok=True)
 
-USER_AGENT = "Premium Plugx"
-REFERER = "https://www.jiotv.com/"
-ORIGIN = "https://www.jiotv.com"
+# Match the UA that premiumplugx itself uses (players that work on source expect this)
+USER_AGENT = "PlayTV/7.1.5 (Linux;Android 8.1.0) ExoPlayerLib/2.11.7"
 TIMEOUT = 45
-# ----------------------------
 
 
 def http_get(url: str, timeout: int = TIMEOUT) -> str:
@@ -50,7 +43,6 @@ def http_get(url: str, timeout: int = TIMEOUT) -> str:
 
 
 def parse_extinf(line: str) -> dict:
-    """Extract tvg-id, name, logo, group from #EXTINF line."""
     out = {"id": "", "name": "", "logo": "", "group": "General"}
     m = re.search(r'tvg-id="([^"]*)"', line)
     if m:
@@ -64,18 +56,14 @@ def parse_extinf(line: str) -> dict:
     m = re.search(r'group-title="([^"]*)"', line)
     if m:
         out["group"] = m.group(1)
-    # trailing display name after comma
     if "," in line:
         tail = line.split(",", 1)[1].strip()
-        if tail and not out["name"]:
+        if tail:
             out["name"] = tail
-        elif tail:
-            out["name"] = tail  # prefer display name
     return out
 
 
 def extract_cookie(exthttp_line: str) -> str:
-    """Pull cookie value from #EXTHTTP:{...} line."""
     if not exthttp_line.startswith("#EXTHTTP:"):
         return ""
     raw = exthttp_line[len("#EXTHTTP:") :].strip()
@@ -84,7 +72,6 @@ def extract_cookie(exthttp_line: str) -> str:
         if isinstance(data, dict):
             return str(data.get("cookie") or data.get("Cookie") or "").strip()
     except json.JSONDecodeError:
-        # fallback regex
         m = re.search(r'"cookie"\s*:\s*"([^"]*)"', raw, re.I)
         if m:
             return m.group(1)
@@ -98,7 +85,6 @@ def extract_license_key(line: str) -> str:
 
 
 def parse_source_m3u(text: str) -> list[dict]:
-    """Parse premiumplugx-style M3U into channel dicts with cookies + keys."""
     channels: list[dict] = []
     lines = text.splitlines()
     i = 0
@@ -144,6 +130,7 @@ def parse_source_m3u(text: str) -> list[dict]:
 
 
 def build_entry(ch: dict) -> list[str]:
+    """Mirror premiumplugx format exactly — that is what plays all channels."""
     cid = str(ch.get("id") or "")
     name = str(ch.get("name") or f"Channel {cid}").replace("\n", " ").strip()
     logo = str(ch.get("logo") or "").strip()
@@ -151,44 +138,25 @@ def build_entry(ch: dict) -> list[str]:
     mpd = str(ch.get("mpd") or "").strip()
     ck = str(ch.get("clearkey") or "").strip()
     cookie = str(ch.get("cookie") or "").strip()
-    ua = USER_AGENT
 
     if not mpd or not ck:
         return []
 
-    header_parts = [
-        f"User-Agent={ua}",
-        f"Referer={REFERER}",
-        f"Origin={ORIGIN}",
-    ]
+    # Source-style EXTHTTP: only cookie (players that work on source use this)
     if cookie:
-        header_parts.append(f"Cookie={cookie}")
-    stream_headers = "&".join(header_parts)
-
-    exthttp = {
-        "User-Agent": ua,
-        "Referer": REFERER,
-        "Origin": ORIGIN,
-    }
-    if cookie:
-        exthttp["Cookie"] = cookie
-    exthttp_json = json.dumps(exthttp, ensure_ascii=False, separators=(",", ": "))
+        exthttp = json.dumps({"cookie": cookie}, ensure_ascii=False, separators=(",", ":"))
+    else:
+        exthttp = "{}"
 
     lines = [
-        f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}',
-        "#KODIPROP:inputstream=inputstream.adaptive",
+        f'#EXTINF:-1 tvg-id="{cid}" tvg-name="{name}" tvg-logo="{logo}" group-title="{group}", {name}',
         "#KODIPROP:inputstream.adaptive.manifest_type=mpd",
         "#KODIPROP:inputstream.adaptive.license_type=clearkey",
         f"#KODIPROP:inputstream.adaptive.license_key={ck}",
-        f"#KODIPROP:inputstream.adaptive.stream_headers={stream_headers}",
-        f"#EXTVLCOPT:http-user-agent={ua}",
-        f"#EXTVLCOPT:http-referrer={REFERER}",
+        f"#EXTVLCOPT:http-user-agent={USER_AGENT}",
+        f"#EXTHTTP:{exthttp}",
+        mpd,
     ]
-    if cookie:
-        lines.append(f"#EXTVLCOPT:http-cookie={cookie}")
-    lines.append(f"#EXTHTTP:{exthttp_json}")
-    lines.append(mpd)
-    lines.append("")
     return lines
 
 
