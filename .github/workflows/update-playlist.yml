@@ -1,0 +1,70 @@
+name: Update PlugX Playlist
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "script/generate_plugx.py"
+      - "script/generate_plugx2.py"
+      - "script/generate_plugx3.py"
+      - "script/generate_marathi.py"
+      - ".github/workflows/update-playlist.yml"
+
+concurrency:
+  group: update-plugx-playlist
+  cancel-in-progress: false
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install deps
+        run: pip install requests -q
+
+      - name: Generate plugx.m3u
+        run: python script/generate_plugx.py
+        continue-on-error: true
+
+      - name: Generate plugx2.m3u (allinonereborn pattern)
+        run: python script/generate_plugx2.py
+        continue-on-error: true
+
+      - name: Generate plugx3.m3u (hybrid failover)
+        run: python script/generate_plugx3.py
+        continue-on-error: true
+
+      - name: Generate marathi.m3u (Axion portal genre 22)
+        run: python script/generate_marathi.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add plugx.m3u plugx2.m3u plugx3.m3u marathi.m3u .last_check .last_check_plugx3 .last_check_marathi 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Auto-update plugx + marathi playlists: $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break
+            echo "Push failed, retrying ($i)..."
+            sleep $((RANDOM % 8 + 2))
+          done
