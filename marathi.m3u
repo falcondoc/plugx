@@ -1,8 +1,7 @@
 #EXTM3U
-#DATE:- 2026-11-08 20:33 UTC
-# Source: Axion stalker portal — Marathi (genre 22)
-# Single root group for OTT Navigator
-# Auto-refreshed by GitHub Actions
+#DATE:- 2026-11-08 20:30 UTC
+# Source: Axion stalker portal Marathi (genre 22)
+# Auto-refreshed for OTT Navigator
 #EXTINF:-1 tvg-id="29701" tvg-logo="http://ujm.from-in.com/panel/imageicon/f3a9e77.png" group-title="Marathi",9X Jhakaas FHD
 http://tv.cloudcdn.me:80/live.ts?channelId=29701&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="25529" tvg-logo="http://ujm.from-in.com/panel/imageicon/95d1312.png" group-title="Marathi",ABP Majha FHD
