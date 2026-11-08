@@ -1,28 +1,26 @@
 #!/usr/bin/env python3
 """
 PlugX M3U generator
-Fetches channel list + per-channel credentials from plugxapi.pages.dev
-and writes a Kodi/VLC/OTT-friendly M3U (same style as sportlink zio.m3u).
+Pulls a fresh playlist from premiumplugx.top (live cookies + keys)
+and normalizes it for Kodi / VLC / OTT Navigator.
 
-Refresh every ~6 hours via GitHub Actions (token window is 6h).
+GitHub Actions refreshes every few hours.
 """
 
 from __future__ import annotations
 
-import json
-import concurrent.futures
 import datetime as dt
+import json
+import re
 import time
 import urllib.error
 import urllib.request
 from pathlib import Path
 
 # ---------- CONFIG ----------
-LIST_URL = "https://plugxapi.pages.dev/api"
-CHANNEL_URL = "https://plugxapi.pages.dev/?id={id}"
+SOURCE_URL = "https://premiumplugx.top/mylive/playlist.php"
+FALLBACK_API = "https://plugxapi.pages.dev/api"  # list only (creds broken)
 
-# Prefer CWD repo root when run as `python script/generate_plugx.py` from repo root
-# (GitHub Actions does exactly that). Fall back to script-relative parent.
 _cwd = Path.cwd()
 if (_cwd / "script").is_dir():
     ROOT = _cwd
@@ -35,17 +33,7 @@ ROOT.mkdir(parents=True, exist_ok=True)
 USER_AGENT = "Premium Plugx"
 REFERER = "https://www.jiotv.com/"
 ORIGIN = "https://www.jiotv.com"
-
-# How many channels to resolve in parallel
-WORKERS = 16
-# HTTP timeouts
-TIMEOUT = 15
-# Skip channels that fail credential fetch
-SKIP_ON_ERROR = True
-# Optional: only keep these groups (empty = all)
-GROUP_FILTER: list[str] = []
-# Optional: max channels (0 = no limit) useful for testing
-MAX_CHANNELS = 0
+TIMEOUT = 45
 # ----------------------------
 
 
@@ -54,135 +42,120 @@ def http_get(url: str, timeout: int = TIMEOUT) -> str:
         url,
         headers={
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-            "Accept": "application/json,text/plain,*/*",
+            "Accept": "*/*",
         },
     )
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", errors="ignore")
 
 
-def fetch_list() -> list[dict]:
-    raw = http_get(LIST_URL)
-    data = json.loads(raw)
-    if not isinstance(data, list):
-        raise RuntimeError("Unexpected /api response (not a list)")
-    return data
+def parse_extinf(line: str) -> dict:
+    """Extract tvg-id, name, logo, group from #EXTINF line."""
+    out = {"id": "", "name": "", "logo": "", "group": "General"}
+    m = re.search(r'tvg-id="([^"]*)"', line)
+    if m:
+        out["id"] = m.group(1)
+    m = re.search(r'tvg-name="([^"]*)"', line)
+    if m:
+        out["name"] = m.group(1)
+    m = re.search(r'tvg-logo="([^"]*)"', line)
+    if m:
+        out["logo"] = m.group(1)
+    m = re.search(r'group-title="([^"]*)"', line)
+    if m:
+        out["group"] = m.group(1)
+    # trailing display name after comma
+    if "," in line:
+        tail = line.split(",", 1)[1].strip()
+        if tail and not out["name"]:
+            out["name"] = tail
+        elif tail:
+            out["name"] = tail  # prefer display name
+    return out
 
 
-def fetch_channel(channel_id: str) -> dict | None:
-    url = CHANNEL_URL.format(id=urllib.parse.quote(str(channel_id)))
+def extract_cookie(exthttp_line: str) -> str:
+    """Pull cookie value from #EXTHTTP:{...} line."""
+    if not exthttp_line.startswith("#EXTHTTP:"):
+        return ""
+    raw = exthttp_line[len("#EXTHTTP:") :].strip()
     try:
-        raw = http_get(url)
         data = json.loads(raw)
-    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError):
-        return None
-    if not isinstance(data, dict):
-        return None
-    if data.get("error"):
-        return None
-    mpd = (data.get("mpd_url") or data.get("url") or "").strip()
-    ck = (data.get("clearkey") or "").strip()
-    if not mpd or not ck:
-        return None
-    return data
-
-
-# late import for quote
-import urllib.parse  # noqa: E402
-
-
-def resolve_all(meta_list: list[dict]) -> list[dict]:
-    if GROUP_FILTER:
-        allow = {g.lower() for g in GROUP_FILTER}
-        meta_list = [c for c in meta_list if str(c.get("group") or "").lower() in allow]
-
-    if MAX_CHANNELS and MAX_CHANNELS > 0:
-        meta_list = meta_list[:MAX_CHANNELS]
-
-    results: list[dict] = []
-    total = len(meta_list)
-    done = 0
-
-    def work(item: dict) -> dict | None:
-        cid = str(item.get("id") or "").strip()
-        if not cid:
-            return None
-        full = fetch_channel(cid)
-        if not full:
-            return None
-        # prefer live payload fields, fall back to list meta
-        full.setdefault("id", cid)
-        full.setdefault("name", item.get("name") or f"Channel {cid}")
-        full.setdefault("group", item.get("group") or "General")
-        full.setdefault("logo", item.get("logo") or "")
-        full.setdefault("type", item.get("type") or "dash")
-        full.setdefault("user_agent", item.get("user_agent") or USER_AGENT)
-        return full
-
-    print(f"Resolving credentials for {total} channels (workers={WORKERS})...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as ex:
-        futs = {ex.submit(work, item): item for item in meta_list}
-        for fut in concurrent.futures.as_completed(futs):
-            done += 1
-            if done % 50 == 0 or done == total:
-                print(f"  progress {done}/{total}")
-            try:
-                row = fut.result()
-            except Exception:
-                row = None
-            if row:
-                results.append(row)
-
-    # stable order: original list order
-    order = {str(c.get("id")): i for i, c in enumerate(meta_list)}
-    results.sort(key=lambda x: order.get(str(x.get("id")), 10**9))
-    return results
-
-
-def cookie_from(channel: dict) -> str:
-    headers = channel.get("headers") or {}
-    if isinstance(headers, dict):
-        c = headers.get("cookie") or headers.get("Cookie") or ""
-        if c:
-            return str(c).strip()
-    # sometimes flat
-    return str(channel.get("cookie") or "").strip()
-
-
-def clearkey_from(channel: dict) -> str:
-    ck = channel.get("clearkey")
-    if isinstance(ck, dict):
-        # {kid: key}
-        parts = [f"{k}:{v}" for k, v in ck.items() if k and v]
-        return ",".join(parts)
-    if isinstance(ck, str) and ck.strip():
-        return ck.strip()
-    kid = channel.get("keyId") or channel.get("key_id")
-    key = channel.get("key")
-    if kid and key:
-        return f"{kid}:{key}"
+        if isinstance(data, dict):
+            return str(data.get("cookie") or data.get("Cookie") or "").strip()
+    except json.JSONDecodeError:
+        # fallback regex
+        m = re.search(r'"cookie"\s*:\s*"([^"]*)"', raw, re.I)
+        if m:
+            return m.group(1)
     return ""
 
 
-def mpd_from(channel: dict) -> str:
-    return (channel.get("mpd_url") or channel.get("url") or "").strip()
+def extract_license_key(line: str) -> str:
+    if "license_key=" in line:
+        return line.split("license_key=", 1)[1].strip()
+    return ""
 
 
-def build_entry(channel: dict) -> list[str]:
-    cid = str(channel.get("id") or "")
-    name = str(channel.get("name") or f"Channel {cid}").replace("\n", " ").strip()
-    logo = str(channel.get("logo") or "").strip()
-    group = str(channel.get("group") or "General").replace("\n", " ").strip()
-    mpd = mpd_from(channel)
-    ck = clearkey_from(channel)
-    cookie = cookie_from(channel)
-    ua = str(channel.get("user_agent") or USER_AGENT).strip() or USER_AGENT
+def parse_source_m3u(text: str) -> list[dict]:
+    """Parse premiumplugx-style M3U into channel dicts with cookies + keys."""
+    channels: list[dict] = []
+    lines = text.splitlines()
+    i = 0
+    n = len(lines)
+    while i < n:
+        line = lines[i].strip()
+        if not line.startswith("#EXTINF:"):
+            i += 1
+            continue
+        meta = parse_extinf(line)
+        license_key = ""
+        cookie = ""
+        mpd = ""
+        j = i + 1
+        while j < n:
+            l2 = lines[j].strip()
+            if l2.startswith("#EXTINF:"):
+                break
+            if l2.startswith("#KODIPROP:") and "license_key=" in l2:
+                license_key = extract_license_key(l2)
+            elif l2.startswith("#EXTHTTP:"):
+                cookie = extract_cookie(l2)
+            elif l2 and not l2.startswith("#"):
+                mpd = l2
+                j += 1
+                break
+            j += 1
+        i = j
+        if not mpd or not license_key:
+            continue
+        channels.append(
+            {
+                "id": meta["id"] or mpd,
+                "name": meta["name"] or "Channel",
+                "logo": meta["logo"],
+                "group": meta["group"] or "General",
+                "mpd": mpd,
+                "clearkey": license_key,
+                "cookie": cookie,
+            }
+        )
+    return channels
+
+
+def build_entry(ch: dict) -> list[str]:
+    cid = str(ch.get("id") or "")
+    name = str(ch.get("name") or f"Channel {cid}").replace("\n", " ").strip()
+    logo = str(ch.get("logo") or "").strip()
+    group = str(ch.get("group") or "General").replace("\n", " ").strip()
+    mpd = str(ch.get("mpd") or "").strip()
+    ck = str(ch.get("clearkey") or "").strip()
+    cookie = str(ch.get("cookie") or "").strip()
+    ua = USER_AGENT
 
     if not mpd or not ck:
         return []
 
-    # stream_headers for Kodi inputstream.adaptive
-    # format: key=value&key=value
     header_parts = [
         f"User-Agent={ua}",
         f"Referer={REFERER}",
@@ -192,7 +165,6 @@ def build_entry(channel: dict) -> list[str]:
         header_parts.append(f"Cookie={cookie}")
     stream_headers = "&".join(header_parts)
 
-    # EXTHTTP JSON (used by some Android IPTV apps / NS Player style)
     exthttp = {
         "User-Agent": ua,
         "Referer": REFERER,
@@ -216,49 +188,60 @@ def build_entry(channel: dict) -> list[str]:
         lines.append(f"#EXTVLCOPT:http-cookie={cookie}")
     lines.append(f"#EXTHTTP:{exthttp_json}")
     lines.append(mpd)
-    lines.append("")  # blank line between entries
+    lines.append("")
     return lines
 
 
-def generate_m3u(channels: list[dict]) -> str:
+def generate_m3u(channels: list[dict]):
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     lines = [
         "#EXTM3U",
         f"#DATE:- {now}",
-        "# Source: plugxapi.pages.dev",
+        "# Source: premiumplugx.top (live cookies)",
         f"# Channels: {len(channels)}",
-        "# Auto-refreshed by GitHub Actions (~every 6 hours)",
+        "# Auto-refreshed by GitHub Actions",
         "",
     ]
     written = 0
+    with_cookie = 0
     for ch in channels:
         entry = build_entry(ch)
         if not entry:
             continue
         lines.extend(entry)
         written += 1
-    # update header count
+        if ch.get("cookie"):
+            with_cookie += 1
     lines[3] = f"# Channels: {written}"
-    return "\n".join(lines) + "\n", written
+    return "\n".join(lines) + "\n", written, with_cookie
 
 
 def main() -> int:
     t0 = time.time()
-    print("Fetching channel list...")
-    meta = fetch_list()
-    print(f"List size: {len(meta)}")
+    print(f"Fetching source playlist: {SOURCE_URL}")
+    try:
+        raw = http_get(SOURCE_URL)
+    except Exception as e:
+        print(f"FATAL: source fetch failed: {e}")
+        return 1
 
-    channels = resolve_all(meta)
-    print(f"With credentials: {len(channels)}")
+    print(f"Source bytes: {len(raw)}")
+    channels = parse_source_m3u(raw)
+    print(f"Parsed channels: {len(channels)}")
+    if not channels:
+        print("FATAL: zero channels parsed")
+        return 1
 
-    text, written = generate_m3u(channels)
+    text, written, with_cookie = generate_m3u(channels)
     OUTPUT.write_text(text, encoding="utf-8")
     META_OUTPUT.write_text(
         json.dumps(
             {
                 "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
-                "list_total": len(meta),
-                "with_credentials": written,
+                "source": SOURCE_URL,
+                "parsed": len(channels),
+                "written": written,
+                "with_cookie": with_cookie,
                 "seconds": round(time.time() - t0, 1),
             },
             indent=2,
@@ -266,7 +249,7 @@ def main() -> int:
         + "\n",
         encoding="utf-8",
     )
-    print(f"Wrote {OUTPUT} ({written} entries) in {round(time.time()-t0,1)}s")
+    print(f"Wrote {OUTPUT} ({written} entries, {with_cookie} with cookie) in {round(time.time()-t0,1)}s")
     return 0
 
 
