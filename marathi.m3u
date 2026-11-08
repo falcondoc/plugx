@@ -1,7 +1,8 @@
 #EXTM3U
-#DATE:- 2026-11-08 20:30 UTC
-# Source: Axion stalker portal Marathi (genre 22)
-# Auto-refreshed for OTT Navigator
+#DATE:- 2026-11-08 20:33 UTC
+# Source: Axion stalker portal — Marathi (genre 22)
+# Single root group for OTT Navigator
+# Auto-refreshed by GitHub Actions
 #EXTINF:-1 tvg-id="29701" tvg-logo="http://ujm.from-in.com/panel/imageicon/f3a9e77.png" group-title="Marathi",9X Jhakaas FHD
 http://tv.cloudcdn.me:80/live.ts?channelId=29701&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="25529" tvg-logo="http://ujm.from-in.com/panel/imageicon/95d1312.png" group-title="Marathi",ABP Majha FHD
@@ -26,38 +27,38 @@ http://tv.cloudcdn.me:80/live.ts?channelId=132266&uid=10016&deviceSn=30FCE4D8D7D
 http://tv.cloudcdn.me:80/live.ts?channelId=90129&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="132819" tvg-logo="https://tv.cloudcdn.online/images/channels/lordbuddhatv.png" group-title="Marathi",Lord Buddha TV
 http://tv.cloudcdn.me:80/live.ts?channelId=132819&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="46524" tvg-logo="http://ujm.from-in.com/panel/imageicon/5c8e1a2.png" group-title="Marathi",NDTV Marathi FHD
+#EXTINF:-1 tvg-id="46524" group-title="Marathi",NDTV Marathi FHD
 http://tv.cloudcdn.me:80/live.ts?channelId=46524&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="132265" group-title="Marathi",News 24 Taas
 http://tv.cloudcdn.me:80/live.ts?channelId=132265&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132817" group-title="Marathi",News Marathi 24x7 FHD
+#EXTINF:-1 tvg-id="132817" tvg-logo="https://tv.cloudcdn.online/images/channels/newsmarathi24x7.png" group-title="Marathi",News Marathi 24x7 FHD
 http://tv.cloudcdn.me:80/live.ts?channelId=132817&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="90130" group-title="Marathi",News18 Marathi FHD
-http://tv.cloudcdn.me:80/live.ts?channelId=90130&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132273" group-title="Marathi",Nick Marathi HD
-http://tv.cloudcdn.me:80/live.ts?channelId=132273&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="90128" group-title="Marathi",Pudhari News FHD
-http://tv.cloudcdn.me:80/live.ts?channelId=90128&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132274" group-title="Marathi",RDX Goa HD
-http://tv.cloudcdn.me:80/live.ts?channelId=132274&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132267" group-title="Marathi",Saam TV HD
+#EXTINF:-1 tvg-id="28127" tvg-logo="http://ujm.from-in.com/panel/imageicon/a8cf7c0.png" group-title="Marathi",News18 Marathi FHD
+http://tv.cloudcdn.me:80/live.ts?channelId=28127&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+#EXTINF:-1 tvg-id="90124" group-title="Marathi",Nick Marathi HD
+http://tv.cloudcdn.me:80/live.ts?channelId=90124&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+#EXTINF:-1 tvg-id="132267" group-title="Marathi",Pudhari News FHD
 http://tv.cloudcdn.me:80/live.ts?channelId=132267&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132280" group-title="Marathi",Sangeet Marathi FHD
-http://tv.cloudcdn.me:80/live.ts?channelId=132280&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132281" group-title="Marathi",Shemaroo Marathibana
-http://tv.cloudcdn.me:80/live.ts?channelId=132281&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132282" group-title="Marathi",Shri Hingulambika Devi Temple FHD (Spiritual)
-http://tv.cloudcdn.me:80/live.ts?channelId=132282&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132283" group-title="Marathi",Shri Mangal Graha Temple FHD (Spiritual)
-http://tv.cloudcdn.me:80/live.ts?channelId=132283&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132284" group-title="Marathi",Sonic Marathi HD
-http://tv.cloudcdn.me:80/live.ts?channelId=132284&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132269" group-title="Marathi",Sony Marathi HD
-http://tv.cloudcdn.me:80/live.ts?channelId=132269&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132271" group-title="Marathi",Star Pravah FHD
+#EXTINF:-1 tvg-id="90130" group-title="Marathi",RDX Goa HD
+http://tv.cloudcdn.me:80/live.ts?channelId=90130&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+#EXTINF:-1 tvg-id="90125" group-title="Marathi",Saam TV HD
+http://tv.cloudcdn.me:80/live.ts?channelId=90125&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+#EXTINF:-1 tvg-id="78861" tvg-logo="http://ujm.from-in.com/panel/imageicon/166cc1f.png" group-title="Marathi",Sangeet Marathi FHD
+http://tv.cloudcdn.me:80/live.ts?channelId=78861&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+#EXTINF:-1 tvg-id="132271" group-title="Marathi",Shemaroo Marathibana
 http://tv.cloudcdn.me:80/live.ts?channelId=132271&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132285" group-title="Marathi",Star Pravah FHD (BK)
-http://tv.cloudcdn.me:80/live.ts?channelId=132285&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+#EXTINF:-1 tvg-id="90123" group-title="Marathi",Shri Hingulambika Devi Temple FHD (Spiritual)
+http://tv.cloudcdn.me:80/live.ts?channelId=90123&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+#EXTINF:-1 tvg-id="132268" group-title="Marathi",Shri Mangal Graha Temple FHD (Spiritual)
+http://tv.cloudcdn.me:80/live.ts?channelId=132268&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+#EXTINF:-1 tvg-id="90128" group-title="Marathi",Sonic Marathi HD
+http://tv.cloudcdn.me:80/live.ts?channelId=90128&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+#EXTINF:-1 tvg-id="78841" tvg-logo="http://ujm.from-in.com/panel/imageicon/bc22fb3.png" group-title="Marathi",Sony Marathi HD
+http://tv.cloudcdn.me:80/live.ts?channelId=78841&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+#EXTINF:-1 tvg-id="28128" tvg-logo="http://ujm.from-in.com/panel/imageicon/bc25fc4.png" group-title="Marathi",Star Pravah FHD
+http://tv.cloudcdn.me:80/live.ts?channelId=28128&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+#EXTINF:-1 tvg-id="132816" tvg-logo="http://ujm.from-in.com/panel/imageicon/bc25fc4.png" group-title="Marathi",Star Pravah FHD (BK)
+http://tv.cloudcdn.me:80/live.ts?channelId=132816&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="132278" group-title="Marathi",Star Pravah Picture FHD
 http://tv.cloudcdn.me:80/live.ts?channelId=132278&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="132272" group-title="Marathi",Sun Marathi FHD
