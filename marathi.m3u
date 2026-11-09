@@ -1,7 +1,8 @@
 #EXTM3U
-#DATE:- 2026-11-09
+#DATE:- 2026-11-09 10:29 UTC
 # Marathi root list (filtered sequence)
 # Channels: 14
+# Auto-refreshed by GitHub Actions
 
 #EXTINF:-1 tvg-id="28132" tvg-logo="http://ujm.from-in.com/panel/imageicon/251e0d3.png" group-title="",Zee Marathi FHD
 http://tv.cloudcdn.me:80/live.ts?channelId=28132&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3

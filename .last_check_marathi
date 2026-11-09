@@ -1,8 +1,24 @@
 {
-  "updated_at": "2026-11-09T03:34:11.520339+00:00",
+  "updated_at": "2026-11-09T10:29:31.729599+00:00",
   "portal": "http://195.26.87.217:80/",
   "mac": "00:1A:79:20:6F:F3",
   "genre_id": "22",
   "found": 38,
-  "written": 38
+  "written": 14,
+  "order": [
+    "Zee Marathi FHD",
+    "Colors Marathi FHD",
+    "Star Pravah FHD",
+    "Star Pravah Picture FHD",
+    "Sony Marathi HD",
+    "Sun Marathi FHD",
+    "DD Sahyadri",
+    "ABP Majha FHD",
+    "Zee 24 Taas FHD",
+    "TV9 Marathi FHD",
+    "News18 Marathi FHD",
+    "Saam TV HD",
+    "Jai Maharashtra FHD",
+    "Shemaroo Marathibana"
+  ]
 }
