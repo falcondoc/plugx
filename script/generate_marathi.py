@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-marathi.m3u — Marathi-only live channels from Axion stalker portal (genre 22).
+marathi.m3u — fixed 14 Marathi channels from Axion stalker (genre 22).
 
-All channels land in a single root group "Marathi" for clean OTT Navigator display.
-Auto-refreshed by GitHub Actions every 4h.
+Exact order, root group (no Marathi folder). Auto-refreshed by GitHub Actions.
 """
 from __future__ import annotations
 
@@ -33,6 +32,30 @@ ROOT = _cwd if (_cwd / "script").is_dir() else Path(__file__).resolve().parent.p
 OUT = ROOT / "marathi.m3u"
 META = ROOT / ".last_check_marathi"
 
+KEEP_ORDER = [
+    "Zee Marathi FHD",
+    "Colors Marathi FHD",
+    "Star Pravah FHD",
+    "Star Pravah Picture FHD",
+    "Sony Marathi HD",
+    "Sun Marathi FHD",
+    "DD Sahyadri",
+    "ABP Majha FHD",
+    "Zee 24 Taas FHD",
+    "TV9 Marathi FHD",
+    "News18 Marathi FHD",
+    "Saam TV HD",
+    "Jai Maharashtra FHD",
+    "Shemaroo Marathibana",
+]
+
+
+def norm(s: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+
+
+KEEP_NORMS = [norm(x) for x in KEEP_ORDER]
+
 
 def session() -> requests.Session:
     s = requests.Session()
@@ -59,7 +82,7 @@ def get_channels(s: requests.Session) -> list:
     return [c for c in chs if str(c.get("tv_genre_id") or c.get("genre_id") or "") == GENRE_ID]
 
 
-def resolve_stream(s: requests.Session, cmd: str) -> str | None:
+def resolve_stream(s: requests.Session, cmd: str):
     if not cmd:
         return None
     try:
@@ -87,37 +110,64 @@ def resolve_stream(s: requests.Session, cmd: str) -> str | None:
     return m.group(1) if m else None
 
 
-def build() -> tuple[str, dict]:
+def match_keep(display: str):
+    n = norm(display)
+    for idx, kn in enumerate(KEEP_NORMS):
+        if n == kn:
+            return idx
+    for idx, kn in enumerate(KEEP_NORMS):
+        if kn in n or n in kn:
+            if "picture" in kn and "picture" not in n:
+                continue
+            if "picture" in n and "picture" not in kn:
+                continue
+            if "bk" in n:
+                continue
+            return idx
+    return None
+
+
+def build():
     s = session()
     channels = get_channels(s)
     print(f"Marathi channels found: {len(channels)}")
 
-    lines = [
-        "#EXTM3U",
-        f"#DATE:- {dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}",
-        "# Source: Axion stalker portal — Marathi (genre 22)",
-        "# Single root group for OTT Navigator",
-        "# Auto-refreshed by GitHub Actions",
-    ]
-
-    ok = 0
+    slots = {}
     for i, ch in enumerate(channels, 1):
         cid = str(ch.get("id") or "")
         name = (ch.get("name") or ch.get("title") or f"CH-{cid}").strip()
         display = re.sub(r"^MR:\s*", "", name)
+        idx = match_keep(display)
+        if idx is None:
+            continue
+        if idx in slots:
+            continue
         logo = ch.get("logo") or ch.get("logo_url") or ""
         cmd = ch.get("cmd") or ""
         stream = resolve_stream(s, cmd)
         if not stream:
-            print(f"  skip (no stream): {name}")
+            print(f"  skip (no stream): {display}")
             continue
-        ok += 1
-        logo_attr = f' tvg-logo="{logo}"' if logo else ""
-        lines.append(f'#EXTINF:-1 tvg-id="{cid}"{logo_attr} group-title="Marathi",{display}')
-        lines.append(stream)
-        if i % 10 == 0:
-            print(f"  resolved {i}/{len(channels)} ok={ok}")
+        slots[idx] = (display, cid, logo, stream)
+        print(f"  keep [{idx}] {display}")
         time.sleep(0.06)
+
+    lines = [
+        "#EXTM3U",
+        f"#DATE:- {dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}",
+        "# Marathi root list (filtered sequence)",
+        f"# Channels: {len(slots)}",
+        "# Auto-refreshed by GitHub Actions",
+        "",
+    ]
+    for idx in range(len(KEEP_ORDER)):
+        if idx not in slots:
+            print(f"  MISSING slot {idx}: {KEEP_ORDER[idx]}")
+            continue
+        display, cid, logo, stream = slots[idx]
+        logo_attr = f' tvg-logo="{logo}"' if logo else ""
+        lines.append(f'#EXTINF:-1 tvg-id="{cid}"{logo_attr} group-title="",{display}')
+        lines.append(stream)
 
     meta = {
         "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
@@ -125,7 +175,8 @@ def build() -> tuple[str, dict]:
         "mac": MAC,
         "genre_id": GENRE_ID,
         "found": len(channels),
-        "written": ok,
+        "written": len(slots),
+        "order": KEEP_ORDER,
     }
     return "\n".join(lines) + "\n", meta
 
@@ -134,7 +185,7 @@ def main() -> int:
     text, meta = build()
     OUT.write_text(text, encoding="utf-8")
     META.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {OUT} ({meta['written']}/{meta['found']} channels)")
+    print(f"Wrote {OUT} ({meta['written']} channels)")
     return 0
 
 
