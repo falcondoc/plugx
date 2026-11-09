@@ -1,7 +1,8 @@
 #EXTM3U
-#DATE:- 2026-11-08 20:30 UTC
-# Source: Axion stalker portal Marathi (genre 22)
-# Auto-refreshed for OTT Navigator
+#DATE:- 2026-11-09 03:33 UTC
+# Source: Axion stalker portal — Marathi (genre 22)
+# Single root group for OTT Navigator
+# Auto-refreshed by GitHub Actions
 #EXTINF:-1 tvg-id="29701" tvg-logo="http://ujm.from-in.com/panel/imageicon/f3a9e77.png" group-title="Marathi",9X Jhakaas FHD
 http://tv.cloudcdn.me:80/live.ts?channelId=29701&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="25529" tvg-logo="http://ujm.from-in.com/panel/imageicon/95d1312.png" group-title="Marathi",ABP Majha FHD
@@ -14,8 +15,6 @@ http://tv.cloudcdn.me:80/live.ts?channelId=28126&uid=10016&deviceSn=30FCE4D8D7D2
 http://tv.cloudcdn.me:80/live.ts?channelId=132275&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="90122" group-title="Marathi",DD Sahyadri
 http://tv.cloudcdn.me:80/live.ts?channelId=90122&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132277" group-title="Marathi",Dagdusheth Ganpati - Pune FHD (Spiritual)
-http://tv.cloudcdn.me:80/live.ts?channelId=132277&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="78832" tvg-logo="http://ujm.from-in.com/panel/imageicon/166cc1f.png" group-title="Marathi",Fakt Marathi FHD
 http://tv.cloudcdn.me:80/live.ts?channelId=78832&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="90127" group-title="Marathi",Jai Maharashtra FHD
@@ -48,8 +47,6 @@ http://tv.cloudcdn.me:80/live.ts?channelId=78861&uid=10016&deviceSn=30FCE4D8D7D2
 http://tv.cloudcdn.me:80/live.ts?channelId=132271&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="90123" group-title="Marathi",Shri Hingulambika Devi Temple FHD (Spiritual)
 http://tv.cloudcdn.me:80/live.ts?channelId=90123&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
-#EXTINF:-1 tvg-id="132268" group-title="Marathi",Shri Mangal Graha Temple FHD (Spiritual)
-http://tv.cloudcdn.me:80/live.ts?channelId=132268&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="90128" group-title="Marathi",Sonic Marathi HD
 http://tv.cloudcdn.me:80/live.ts?channelId=90128&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="78841" tvg-logo="http://ujm.from-in.com/panel/imageicon/bc22fb3.png" group-title="Marathi",Sony Marathi HD
