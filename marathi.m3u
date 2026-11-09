@@ -1,34 +1,34 @@
 #EXTM3U
-#DATE:- 2026-11-09 12:18 UTC
+#DATE:- 2026-11-09 23:53 UTC
 # Marathi root list (filtered sequence)
 # Channels: 14
 # Auto-refreshed by GitHub Actions
 
 #EXTINF:-1 tvg-id="28132" tvg-logo="http://ujm.from-in.com/panel/imageicon/251e0d3.png" group-title="",Zee Marathi FHD
-http://tv.cloudcdn.me:80/live.ts?channelId=28132&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=28132&uid=10016&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="28126" tvg-logo="http://ujm.from-in.com/panel/imageicon/1d6d81d.png" group-title="",Colors Marathi FHD
-http://tv.cloudcdn.me:80/live.ts?channelId=28126&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=28126&uid=10016&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="28128" tvg-logo="http://ujm.from-in.com/panel/imageicon/bc25fc4.png" group-title="",Star Pravah FHD
-http://tv.cloudcdn.me:80/live.ts?channelId=28128&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=28128&uid=10016&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="132278" group-title="",Star Pravah Picture FHD
-http://tv.cloudcdn.me:80/live.ts?channelId=132278&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=132278&uid=10016&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="78841" tvg-logo="http://ujm.from-in.com/panel/imageicon/bc22fb3.png" group-title="",Sony Marathi HD
-http://tv.cloudcdn.me:80/live.ts?channelId=78841&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=78841&uid=10016&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="132272" group-title="",Sun Marathi FHD
-http://tv.cloudcdn.me:80/live.ts?channelId=132272&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=132272&uid=10016&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="90122" group-title="",DD Sahyadri
-http://tv.cloudcdn.me:80/live.ts?channelId=90122&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=90122&uid=10016&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="25529" tvg-logo="http://ujm.from-in.com/panel/imageicon/95d1312.png" group-title="",ABP Majha FHD
-http://tv.cloudcdn.me:80/live.ts?channelId=25529&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=25529&uid=10016&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="28130" tvg-logo="http://ujm.from-in.com/panel/imageicon/88bc33a.png" group-title="",Zee 24 Taas FHD
-http://tv.cloudcdn.me:80/live.ts?channelId=28130&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=28130&uid=10016&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="28129" tvg-logo="http://ujm.from-in.com/panel/imageicon/8e172e3.png" group-title="",TV9 Marathi FHD
-http://tv.cloudcdn.me:80/live.ts?channelId=28129&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=28129&uid=10016&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="28127" tvg-logo="http://ujm.from-in.com/panel/imageicon/a8cf7c0.png" group-title="",News18 Marathi FHD
-http://tv.cloudcdn.me:80/live.ts?channelId=28127&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=28127&uid=10016&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="90125" group-title="",Saam TV HD
-http://tv.cloudcdn.me:80/live.ts?channelId=90125&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=90125&uid=10016&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="90127" group-title="",Jai Maharashtra FHD
-http://tv.cloudcdn.me:80/live.ts?channelId=90127&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=90127&uid=10016&deviceMac=00:1A:79:20:6F:F3
 #EXTINF:-1 tvg-id="132271" group-title="",Shemaroo Marathibana
-http://tv.cloudcdn.me:80/live.ts?channelId=132271&uid=10016&deviceSn=30FCE4D8D7D2C&deviceMac=00:1A:79:20:6F:F3
+http://tv.cloudcdn.me:80/live.ts?channelId=132271&uid=10016&deviceMac=00:1A:79:20:6F:F3
