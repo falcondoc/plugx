@@ -2,9 +2,9 @@
 """
 plugx3 — hybrid failover playlist
 
-Primary: allinonereborn jtv33 (proxy keys + cookie on URL) — full playback
-Fallback: Geo jiotv_cf (static keys + token on URL) — when primary missing a channel
-Special:  Zee Marathi HD always taken from primary (Geo's copy is broken)
+Primary: allinonereborn jtv33 (proxy keys + cookie on URL)
+Fallback: Geo jiotv_cf
+Zee overlay: premiumplugx.me/vzy (CloudFront + static clearkey) — Zee family dies on Jio tokens
 
 Auto-refreshed by GitHub Actions.
 """
@@ -17,15 +17,14 @@ from pathlib import Path
 
 PRIMARY_URL = "https://allinonereborn2.online/jiotv-m3u/jtv33.m3u8"
 FALLBACK_URL = "https://raw.githubusercontent.com/qwerty180506/Geo/main/jiotv_cf.m3u"
+ZEE_URL = "https://premiumplugx.me/vzy/playlist.php"
 
 _cwd = Path.cwd()
 ROOT = _cwd if (_cwd / "script").is_dir() else Path(__file__).resolve().parent.parent
 OUT = ROOT / "plugx3.m3u"
 META = ROOT / ".last_check_plugx3"
 
-FORCE_PRIMARY = {
-    "zeemarathihd",
-}
+FORCE_PRIMARY = {"zeemarathihd"}
 
 
 def http_get(url: str, timeout: int = 60) -> str:
@@ -38,9 +37,8 @@ def http_get(url: str, timeout: int = 60) -> str:
 
 
 def norm_name(s: str) -> str:
-    s = s.lower().strip()
-    s = re.sub(r"[^a-z0-9]+", "", s)
-    return s
+    s = (s or "").lower().strip()
+    return re.sub(r"[^a-z0-9]+", "", s)
 
 
 def parse_extinf_name(line: str) -> str:
@@ -87,7 +85,7 @@ def parse_m3u_blocks(text: str) -> list:
         if not url:
             continue
         joined = "\n".join(block)
-        if "license_key=" not in joined and ".mpd" not in url:
+        if "license_key=" not in joined and ".mpd" not in url and ".m3u8" not in url:
             continue
         out.append(
             {
@@ -100,73 +98,116 @@ def parse_m3u_blocks(text: str) -> list:
     return out
 
 
+def is_zee_family(norm: str, name: str) -> bool:
+    n = norm
+    if n.startswith("aljazeera") or "jazeera" in n:
+        return False
+    if n.startswith("tehzeeb") or "tehzeeb" in n:
+        return False
+    if n.startswith("zee") or name.strip().lower().startswith("zee"):
+        return True
+    return False
+
+
+def match_zee(norm: str, zee_by: dict):
+    if norm in zee_by:
+        return zee_by[norm]
+    candidates = []
+    for kn, vc in zee_by.items():
+        if norm == kn:
+            return vc
+        base_n = norm.replace("hd", "")
+        base_k = kn.replace("hd", "")
+        if base_n == base_k:
+            candidates.append(vc)
+            continue
+        if norm in kn or kn in norm:
+            if abs(len(norm) - len(kn)) <= 4:
+                candidates.append(vc)
+    return candidates[0] if candidates else None
+
+
 def build():
     print(f"Fetching primary: {PRIMARY_URL}")
-    primary_raw = http_get(PRIMARY_URL)
-    primary = parse_m3u_blocks(primary_raw)
-    print(f"  primary channels: {len(primary)}")
+    primary = parse_m3u_blocks(http_get(PRIMARY_URL))
+    print(f"  primary: {len(primary)}")
 
     print(f"Fetching fallback: {FALLBACK_URL}")
     try:
-        fallback_raw = http_get(FALLBACK_URL)
-        fallback = parse_m3u_blocks(fallback_raw)
-        print(f"  fallback channels: {len(fallback)}")
+        fallback = parse_m3u_blocks(http_get(FALLBACK_URL))
+        print(f"  fallback: {len(fallback)}")
     except Exception as e:
         print(f"  fallback failed: {e}")
         fallback = []
 
-    by_norm_primary = {c["norm"]: c for c in primary if c["norm"]}
-    by_norm_fallback = {c["norm"]: c for c in fallback if c["norm"]}
+    print(f"Fetching Zee overlay: {ZEE_URL}")
+    try:
+        zee_list = parse_m3u_blocks(http_get(ZEE_URL))
+        print(f"  vzy: {len(zee_list)}")
+    except Exception as e:
+        print(f"  vzy failed: {e}")
+        zee_list = []
 
-    ordered_norms = []
+    by_primary = {c["norm"]: c for c in primary if c["norm"]}
+    by_fallback = {c["norm"]: c for c in fallback if c["norm"]}
+    by_zee = {c["norm"]: c for c in zee_list if c["norm"]}
+
+    ordered = []
     seen = set()
     for c in primary:
         k = c["norm"]
         if k and k not in seen:
-            ordered_norms.append(k)
+            ordered.append(k)
             seen.add(k)
     for c in fallback:
         k = c["norm"]
         if k and k not in seen:
-            ordered_norms.append(k)
+            ordered.append(k)
             seen.add(k)
 
-    final_blocks = []
-    from_primary = 0
-    from_fallback = 0
-    forced = 0
+    final = []
+    from_primary = from_fallback = from_zee = 0
+    zee_replaced = 0
+    zee_unmatched = []
 
-    for k in ordered_norms:
-        use_primary = k in by_norm_primary
-        if k in FORCE_PRIMARY:
-            use_primary = True
-            if k in by_norm_primary:
-                forced += 1
+    for k in ordered:
+        ch_p = by_primary.get(k)
+        ch_f = by_fallback.get(k)
+        name = (ch_p or ch_f or {}).get("name") or k
 
-        if use_primary and k in by_norm_primary:
-            final_blocks.append(by_norm_primary[k]["block"])
+        if is_zee_family(k, name):
+            z = match_zee(k, by_zee)
+            if z:
+                final.append(z["block"])
+                from_zee += 1
+                zee_replaced += 1
+                continue
+            zee_unmatched.append(name)
+
+        if k in FORCE_PRIMARY and ch_p:
+            final.append(ch_p["block"])
             from_primary += 1
-        elif k in by_norm_fallback:
-            final_blocks.append(by_norm_fallback[k]["block"])
+        elif ch_p:
+            final.append(ch_p["block"])
+            from_primary += 1
+        elif ch_f:
+            final.append(ch_f["block"])
             from_fallback += 1
-        elif k in by_norm_primary:
-            final_blocks.append(by_norm_primary[k]["block"])
-            from_primary += 1
 
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     header = [
         "#EXTM3U",
         f"#DATE:- {now}",
-        "# plugx3 hybrid failover",
-        f"# Primary: allinonereborn jtv33 ({from_primary} ch)",
-        f"# Fallback: Geo jiotv_cf ({from_fallback} ch)",
-        f"# Forced primary (e.g. Zee Marathi HD): {forced}",
-        f"# Channels: {len(final_blocks)}",
+        "# plugx3 hybrid failover + Zee from premiumplugx.me/vzy",
+        f"# Primary jtv33: {from_primary}",
+        f"# Fallback Geo: {from_fallback}",
+        f"# Zee overlay vzy: {from_zee}",
+        f"# Channels: {len(final)}",
         "# Auto-refreshed by GitHub Actions",
         "",
     ]
     lines = header[:]
-    for b in final_blocks:
+    for b in final:
         lines.extend(b)
         lines.append("")
 
@@ -174,11 +215,15 @@ def build():
         "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "primary": PRIMARY_URL,
         "fallback": FALLBACK_URL,
-        "total": len(final_blocks),
+        "zee_overlay": ZEE_URL,
+        "total": len(final),
         "from_primary": from_primary,
         "from_fallback": from_fallback,
-        "forced_primary": forced,
+        "from_zee": from_zee,
+        "zee_replaced": zee_replaced,
+        "zee_unmatched": zee_unmatched[:30],
     }
+    print(f"zee replaced: {zee_replaced}, unmatched: {len(zee_unmatched)}")
     return "\n".join(lines) + "\n", meta
 
 
@@ -188,9 +233,7 @@ def main() -> int:
     text, meta = build()
     OUT.write_text(text, encoding="utf-8")
     META.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
-    print(
-        f"Wrote {OUT} ({meta['total']} channels: {meta['from_primary']} primary + {meta['from_fallback']} fallback)"
-    )
+    print(f"Wrote {OUT} ({meta['total']} channels)")
     return 0
 
 
