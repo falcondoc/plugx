@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-11-10T15:55:18.678583+00:00",
+  "updated_at": "2026-11-10T19:58:16.140599+00:00",
   "primary": "https://allinonereborn2.online/jiotv-m3u/jtv33.m3u8",
   "fallback": "https://raw.githubusercontent.com/qwerty180506/Geo/main/jiotv_cf.m3u",
-  "total": 1177,
-  "from_primary": 1170,
+  "zee_overlay": "https://premiumplugx.me/vzy/playlist.php",
+  "total": 1187,
+  "from_primary": 1148,
   "from_fallback": 7,
-  "forced_primary": 1
+  "from_zee": 32,
+  "zee_replaced": 32,
+  "zee_unmatched": [
+    "Zee Cafe HD",
+    "Zee 24 Taas",
+    "Zee Telugu News",
+    "Zee UP UK",
+    "Zee Bharat",
+    "Zee MP Chattisgarh",
+    "Zee Rajasthan",
+    "Zee Delhi NCR Haryana",
+    "Zee Business",
+    "Zee 24 Kalak",
+    "Zee Tamil",
+    "Zee Tamil HD",
+    "Zee Kannada News",
+    "Zee Punjab Haryana HP",
+    "Zee Bihar Jharkhand"
+  ]
 }
