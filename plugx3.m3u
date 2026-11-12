@@ -1,5 +1,5 @@
 #EXTM3U
-#DATE:- 2026-11-11 18:58 UTC
+#DATE:- 2026-11-12 01:44 UTC
 # plugx3 hybrid + Zee from vzy/pastyx only (no Jio Zee)
 # Primary plugx2: 1106
 # Fallback Geo: 7
@@ -1724,7 +1724,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Pravah_HD_MOB/WDVLive/index.mpd?__hd
 
 #EXTINF:-1 tvg-id="9624888" tvg-name="Zee Yuva" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/4c0723e870914be8b9e77207a96227cd/version/0" group-title="Entertainment",Zee Yuva
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=7da627fcb50d4b0f8a26cb2cd16a8528:a09d1def16a3dfa937731053418fabf7
+#KODIPROP:inputstream.adaptive.license_key=8cd380bd638847d5a4cfb19c1227c7ed:6f7cae9204c43940622b5017f22faf78
 https://d2o8pibksxtln6.cloudfront.net/live/media/ZEE_YUVA/dash/ZEE_YUVA.mpd
 
 #EXTINF:-1 tvg-id="441" group-title="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/9xjhakaas.png",9x Jhakaas
@@ -6135,7 +6135,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Punjab_School_TV_MOB/WDVLive/index.mpd?__
 
 #EXTINF:-1 tvg-id="9624890" tvg-name="ZEE PUNJABI" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/600751eb0b714c9992c92d8bfc78e814/version/0" group-title="Entertainment",ZEE PUNJABI
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=ba6f7e0305554519ada3732fae8eaa2a:65e5a96a640d5edebbd240edfea45407
+#KODIPROP:inputstream.adaptive.license_key=abc0fd8d43c946ef826e36fb5aa13742:222cb6950dcc21ff27572f5f7fdf1306
 https://d1iwj24qiokrul.cloudfront.net/live/media/ZEE_PUNJABI/dash/ZEE_PUNJABI.mpd
 
 #EXTINF:-1 tvg-id="1868" group-title="Punjabi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Punjab_Plus.png",Punjab Plus
