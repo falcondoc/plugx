@@ -1,5 +1,5 @@
 #EXTM3U
-#DATE:- 2026-11-12 01:44 UTC
+#DATE:- 2026-11-12 11:58 UTC
 # plugx3 hybrid + Zee from vzy/pastyx only (no Jio Zee)
 # Primary plugx2: 1106
 # Fallback Geo: 7
@@ -582,8 +582,8 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/HHDL_MOB/WDVLive/index.mpd?__hdnea__=st=1
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f7cecb81b1334490ab5b916bb480ab18:0ba63253f143b3069fc47b051dc8f207
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="1322" group-title="English" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/AndFlixHD.png",And Flix HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -776,8 +776,8 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Wild_Earth_MOB/WDVLive/index.mpd?__hdnea_
 
 #EXTINF:-1 tvg-id="9650645" tvg-name="Zee Zest" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/d2cc8c4a35c44b0bb21c05185150f4a0/version/0" group-title="Lifestyle",Zee Zest
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=265e576b41b045e798ee37240e69f467:1fc578975011e068b998416777196b2e
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Zest_SD/dash/Zee_Zest_SD.mpd
+#KODIPROP:inputstream.adaptive.license_key=e84f6369df094530bde165e64e6481b5:ac35c5c5062c14fb4c10402ff592f6f6
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Zest_SD/dash/Zee_Zest_SD.mpd
 
 #EXTINF:-1 tvg-id="2775" group-title="English" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Grace_TV.png",Grace TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1722,10 +1722,10 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/News18Lokmat_MOB/WDVLive/index.mpd?__hdne
 #EXTHTTP:{"cookie":"__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Pravah_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14&__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
 
-#EXTINF:-1 tvg-id="9624888" tvg-name="Zee Yuva" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/4c0723e870914be8b9e77207a96227cd/version/0" group-title="Entertainment",Zee Yuva
+#EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=8cd380bd638847d5a4cfb19c1227c7ed:6f7cae9204c43940622b5017f22faf78
-https://d2o8pibksxtln6.cloudfront.net/live/media/ZEE_YUVA/dash/ZEE_YUVA.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="441" group-title="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/9xjhakaas.png",9x Jhakaas
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1736,8 +1736,8 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/9xjhakaas/HLSPartner/index.m3u8?__hdnea__
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f7cecb81b1334490ab5b916bb480ab18:0ba63253f143b3069fc47b051dc8f207
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="9504795" tvg-name="Zee Marathi HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/9d03463ae16544f2b87dd2e173b22685/version/0" group-title="Entertainment",Zee Marathi HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1922,8 +1922,8 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/AndPicturesHD_BTS/WDVLive/index.mpd?__hdn
 
 #EXTINF:-1 tvg-id="9487057" tvg-name="Zee Anmol Cinema" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/b9a50d8fab3541af81681eb6bd385eaf/version/0" group-title="Movies",Zee Anmol Cinema
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1d383c779c40452c83d0b014f26a3681:74a1848313c43b28555251bff219bc02
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Anmol_Cinema/dash/Zee_Anmol_Cinema.mpd
+#KODIPROP:inputstream.adaptive.license_key=e8e61d1c9a5d4ff19344e83890d0e6a9:74202efe917fa841746196698f85fcc1
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Anmol_Cinema/dash/Zee_Anmol_Cinema.mpd
 
 #EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SonyMAX.png",Sony Max HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1953,13 +1953,13 @@ https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Cinema_HD/dash/Zee_Cinema_H
 
 #EXTINF:-1 tvg-id="9487104" tvg-name="Zee Bollywood" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/e1de996d54864c78b8daf60d63974223/version/0" group-title="Movies",Zee Bollywood
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=5502ea8df2c6406bb5f42b5fb9e94a75:5d5aa8dc7a0ad1ac3105312d90c7cdb5
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Bollywood/dash/Zee_Bollywood.mpd
+#KODIPROP:inputstream.adaptive.license_key=f4d58e1ee71343c6a40ec69afc534ec7:b64e518ab29725b58c34c5e9f830b9b5
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Bollywood/dash/Zee_Bollywood.mpd
 
 #EXTINF:-1 tvg-id="9487052" tvg-name="Zee Action" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/34108078d7874122b00072cb48a6968a/version/0" group-title="Movies",Zee Action
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=abba957e48bc4119bbe46e4c8742d221:f10c518c1d0c7636c5012de1d1b1e335
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Action/dash/Zee_Action.mpd
+#KODIPROP:inputstream.adaptive.license_key=92faeaebb47e40639c23a4252194a387:8c992c9fd80ebe27a60cff383b1988e1
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Action/dash/Zee_Action.mpd
 
 #EXTINF:-1 tvg-id="809" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Maha_Movies.png",Maha Movies
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2010,10 +2010,10 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ColorsCineplexHD_MOB/WDVLive/index.mpd?__
 #EXTHTTP:{"cookie":"__hdnea__=st=1794393195~exp=1794396795~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=c18f21b2b92f3e347027d98191eb7db5bc1392230ec8b97aafc8d41814950a9c"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/WDVLive/index.mpd?__hdnea__=st=1794393195~exp=1794396795~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=c18f21b2b92f3e347027d98191eb7db5bc1392230ec8b97aafc8d41814950a9c&__hdnea__=st=1794393195~exp=1794396795~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=c18f21b2b92f3e347027d98191eb7db5bc1392230ec8b97aafc8d41814950a9c
 
-#EXTINF:-1 tvg-id="9624882" tvg-name="Zee Classic" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/97ff8066a4d945d0ad72764a1f58762b/version/0" group-title="Movies",Zee Classic
+#EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=ac15851c2c5e43ceb22037d8d7f2cceb:4489fd9ea4a3b17985e0c4c3d6ab04a3
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Classic/dash/Zee_Classic.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="1763" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ColorsCineplexBollywood.png",Colors Cineplex Bollywood
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2031,8 +2031,8 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/AndPictures_BTS/WDVLive/index.mpd?__hdnea
 
 #EXTINF:-1 tvg-id="9487057" tvg-name="Zee Anmol Cinema" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/b9a50d8fab3541af81681eb6bd385eaf/version/0" group-title="Movies",Zee Anmol Cinema
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1d383c779c40452c83d0b014f26a3681:74a1848313c43b28555251bff219bc02
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Anmol_Cinema/dash/Zee_Anmol_Cinema.mpd
+#KODIPROP:inputstream.adaptive.license_key=e8e61d1c9a5d4ff19344e83890d0e6a9:74202efe917fa841746196698f85fcc1
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Anmol_Cinema/dash/Zee_Anmol_Cinema.mpd
 
 #EXTINF:-1 tvg-id="3060" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Hiff_Movies.png",Hiff Movies
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2584,8 +2584,10 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Tez_MOB/WDVLive/index.mpd?__hdnea__=st=17
 #EXTHTTP:{"cookie":"__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/IBC24_MOB/WDVLive/index.mpd?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14&__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
 
-#EXTINF:-1 tvg-id="9487055" tvg-name="Zee News" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/087a098c826c480796c1e9ac0ade0d82/version/0" group-title="News",Zee News
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_News/hls_fta/Zee_News.m3u8
+#EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="510" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/VIP_News.png",VIP News
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2680,8 +2682,8 @@ https://nw18live.cdn.jio.com/bpk-tv/News18_Rajasthan_NW18_MOB/output01/index.m3u
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f7cecb81b1334490ab5b916bb480ab18:0ba63253f143b3069fc47b051dc8f207
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="655" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News18PunjabHaryana.png",News18 Punjab Haryana
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2692,18 +2694,18 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/News18PunjabHaryana_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f7cecb81b1334490ab5b916bb480ab18:0ba63253f143b3069fc47b051dc8f207
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f7cecb81b1334490ab5b916bb480ab18:0ba63253f143b3069fc47b051dc8f207
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f7cecb81b1334490ab5b916bb480ab18:0ba63253f143b3069fc47b051dc8f207
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="768" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jan_TV.png",Jan TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -4168,8 +4170,8 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/9XJalwa/HLSPartner/index.m3u8?__hdnea__=s
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f7cecb81b1334490ab5b916bb480ab18:0ba63253f143b3069fc47b051dc8f207
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="587" group-title="Music" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/9xm.png",9XM
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -4271,8 +4273,8 @@ https://nw18live.cdn.jio.com/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/index.m3u8?__hd
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f7cecb81b1334490ab5b916bb480ab18:0ba63253f143b3069fc47b051dc8f207
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="1907" group-title="Business News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ET_Now_Swadesh.png",ET Now Swadesh
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -4346,8 +4348,8 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Sandesh_News_MOB/WDVLive/index.mpd?__hdne
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f7cecb81b1334490ab5b916bb480ab18:0ba63253f143b3069fc47b051dc8f207
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="944" group-title="Gujarati" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Mantavya_News.png",Mantavya News
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -4946,8 +4948,8 @@ https://nw18live.cdn.jio.com/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/index.m3
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f7cecb81b1334490ab5b916bb480ab18:0ba63253f143b3069fc47b051dc8f207
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="636" group-title="Tamil" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Polimer_News.png",Polimer News
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -5217,8 +5219,8 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Aastha_Tamil_MOB/WDVLive/index.mpd?__hdne
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f7cecb81b1334490ab5b916bb480ab18:0ba63253f143b3069fc47b051dc8f207
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="1371" group-title="Tamil" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Tamil.png",Colors Tamil
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -5395,8 +5397,8 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Jalsa_Movies_HD_MOB/WDVLive/index.mpd?__h
 
 #EXTINF:-1 tvg-id="9487065" tvg-name="Zee 24 GHANTA" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/4250427f57894b2c904cdd96bbd418ac/version/0" group-title="News",Zee 24 GHANTA
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f80ab173a21c4a3381b8041c3bfcf3ac:50f59dc30de56db5d2bfc4905cdb129c
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_24_Ghanta/dash/Zee_24_Ghanta.mpd
+#KODIPROP:inputstream.adaptive.license_key=6c4f87dbfb234205832c4da9ac8fa54c:988838b04c48ae54588915ca764d089d
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Twenty_Four_Ghanta/dash/Zee_Twenty_Four_Ghanta.mpd
 
 #EXTINF:-1 tvg-id="573" group-title="Bengali" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Discovery_Channel_Bengali.png",Discovery Bengali
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -5903,8 +5905,8 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Sirikannada_MOB/WDVLive/index.mpd?__hdnea
 
 #EXTINF:-1 tvg-id="9649339" tvg-name="Zee Power" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/c3166a46bb1945638c6c62bd2aa8bff5/version/0" group-title="Entertainment",Zee Power
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=83e27fa0885b4ffebf66ce98f5631148:ebf39964599bdf9ced9e8b97cf1f49fc
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Power_SD/dash/Zee_Power_SD.mpd
+#KODIPROP:inputstream.adaptive.license_key=1217bd34b5524eae85ff1a5c3a8ba01f:e8f5a8633596e6e76cb991f83e32fbce
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Power/dash/Zee_Power.mpd
 
 #EXTINF:-1 tvg-id="2253" group-title="Kannada" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Nakshatra_Digital_TV.png",Nakshatra Digital TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -5955,8 +5957,8 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/mh1_Shraddha_MOB/WDVLive/index.mpd?__hdne
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f7cecb81b1334490ab5b916bb480ab18:0ba63253f143b3069fc47b051dc8f207
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="715" group-title="Punjabi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DD_Punjabi.png",DD Punjabi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -7816,10 +7818,10 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_Oriya_MOB/WDVLive/index.mpd?__hdnea__=
 #EXTHTTP:{"cookie":"__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Kanak_TV_MOB/WDVLive/index.mpd?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14&__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
 
-#EXTINF:-1 tvg-id="9487093" tvg-name="Zee Sarthak" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/9e787a13afa1447abde693bf57f7f9db/version/0" group-title="Entertainment",Zee Sarthak
+#EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f5916cb7a95c428b874c12f187188d97:c96abc7ac7ef77198e60facf8fac6fde
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Sarthak/dash/Zee_Sarthak.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="779" group-title="Odia" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Prameya_News_7.png",Prameya News 7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -7886,8 +7888,8 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Kiran_MOB/WDVLive/index.mpd?__hdnea_
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f7cecb81b1334490ab5b916bb480ab18:0ba63253f143b3069fc47b051dc8f207
-https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=269a88d95acb4dafa0a65217ea3a0fb9:1ffd9e13c982445c66aa15242bc9052a
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="741" group-title="Bhojpuri" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sangeet_Bhojpuri.png",Sangeet Bhojpuri
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -7989,41 +7991,41 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/SonyYAYMal_MOB/WDVLive/index.mpd?__hdnea_
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4e4c5dba5bfe5a7c9338bc086eb80379:b8e8932f440084e1d2b705fa52eef94b
-https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_1_MOB/WDVLive/index.mpd?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_1_MOB/WDVLive/index.mpd?__hdnea__=st=1794465012~exp=1794551412~acl=/*~hmac=2aaa6a6dbf410c6afb35e22b73447aa354755fb86879b271ea2f60db917a635d
 
 #EXTINF:-1 tvg-name="Sony LIV Sports 2" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_2.png" group-title="Sports",Sony LIV Sports 2
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ef24516ae38b50d18049343cd1cd998a:eb4810ec250a1795a0019dba7881ff45
-https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_2_MOB/WDVLive/index.mpd?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_2_MOB/WDVLive/index.mpd?__hdnea__=st=1794465012~exp=1794551412~acl=/*~hmac=2aaa6a6dbf410c6afb35e22b73447aa354755fb86879b271ea2f60db917a635d
 
 #EXTINF:-1 tvg-name="Sony LIV Sports 3" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_3.png" group-title="Sports",Sony LIV Sports 3
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3afa887864e6545aa006db21aeb39054:6b8cce271f3cd923d0df32d45b44f6df
-https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_3_MOB/WDVLive/index.mpd?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_3_MOB/WDVLive/index.mpd?__hdnea__=st=1794465012~exp=1794551412~acl=/*~hmac=2aaa6a6dbf410c6afb35e22b73447aa354755fb86879b271ea2f60db917a635d
 
 #EXTINF:-1 tvg-name="Sony LIV Sports 4 Tamil" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_4_Tamil.png" group-title="Sports",Sony LIV Sports 4 Tamil
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9f266ceda9555faf8b40c586ac40406a:92f9a1ca4c16545db65ad0578bd1baa3
-https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_4_Tamil_MOB/WDVLive/index.mpd?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_4_Tamil_MOB/WDVLive/index.mpd?__hdnea__=st=1794465012~exp=1794551412~acl=/*~hmac=2aaa6a6dbf410c6afb35e22b73447aa354755fb86879b271ea2f60db917a635d
 
 #EXTINF:-1 tvg-name="Sony LIV Sports 4 Telugu" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_4_Telugu.png" group-title="Sports",Sony LIV Sports 4 Telugu
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4d39c423d72a5f1ca5df1de110c80422:572a9370c22c8b5d741352ebf8f68721
-https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_4_Telugu_MOB/WDVLive/index.mpd?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_4_Telugu_MOB/WDVLive/index.mpd?__hdnea__=st=1794465012~exp=1794551412~acl=/*~hmac=2aaa6a6dbf410c6afb35e22b73447aa354755fb86879b271ea2f60db917a635d
 
 #EXTINF:-1 tvg-name="Sony LIV Sports 5" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLIV_Sports_5.png" group-title="Sports",Sony LIV Sports 5
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cee8550bf50b569d8ad2ed0c5264f0d2:565a95f1c332c03534e1e5fcc1ff9a8b
-https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_5_MOB/WDVLive/index.mpd?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_5_MOB/WDVLive/index.mpd?__hdnea__=st=1794465012~exp=1794551412~acl=/*~hmac=2aaa6a6dbf410c6afb35e22b73447aa354755fb86879b271ea2f60db917a635d
 
 #EXTINF:-1 tvg-name="Sony Liv Sports 4 Kannada" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLivSports4Kan.png" group-title="Sports",Sony Liv Sports 4 Kannada
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11ea8c4152bd55f19ecf2fcecaadf14d:e1cd78b9fc344ad20e873cff3c2354f0
-https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLivSports4Kan_MOB/WDVLive/index.mpd?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLivSports4Kan_MOB/WDVLive/index.mpd?__hdnea__=st=1794465012~exp=1794551412~acl=/*~hmac=2aaa6a6dbf410c6afb35e22b73447aa354755fb86879b271ea2f60db917a635d
 
