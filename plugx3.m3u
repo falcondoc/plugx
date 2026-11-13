@@ -1,5 +1,5 @@
 #EXTM3U
-#DATE:- 2026-11-12 19:32 UTC
+#DATE:- 2026-11-13 00:47 UTC
 # plugx3 hybrid + Zee from vzy/pastyx only (no Jio Zee)
 # Primary plugx2: 1106
 # Fallback Geo: 7
@@ -1452,7 +1452,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ColorsHD_MOB/WDVLive/index.mpd?__hdnea__=
 
 #EXTINF:-1 tvg-id="9487083" tvg-name="ZEE TV HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/04bc627420754c2592f21bb6c37d7f41/version/0" group-title="Entertainment",ZEE TV HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b365fd3f85f14508bb8c6e2aeb362c5b:39a53f416415aa2b3bd485c2c0ff9fbf
+#KODIPROP:inputstream.adaptive.license_key=ddb0582c8b844cd7b10f4b3da825edff:e846c601776376307df483a157dc1fd5
 https://d2o8pibksxtln6.cloudfront.net/live/media/ZEE_TV_HD/dash/ZEE_TV_HD.mpd
 
 #EXTINF:-1 tvg-id="202" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DD_National.png",DD National
@@ -1609,7 +1609,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_Gyandarshan_MOB/WDVLive/index.mpd?__hd
 
 #EXTINF:-1 tvg-id="9487083" tvg-name="ZEE TV HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/04bc627420754c2592f21bb6c37d7f41/version/0" group-title="Entertainment",ZEE TV HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b365fd3f85f14508bb8c6e2aeb362c5b:39a53f416415aa2b3bd485c2c0ff9fbf
+#KODIPROP:inputstream.adaptive.license_key=ddb0582c8b844cd7b10f4b3da825edff:e846c601776376307df483a157dc1fd5
 https://d2o8pibksxtln6.cloudfront.net/live/media/ZEE_TV_HD/dash/ZEE_TV_HD.mpd
 
 #EXTINF:-1 tvg-id="1359" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/BigMagic.png",Big Magic
@@ -1705,7 +1705,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/IDHDEnglish_MOB/WDVLive/index.mpd?__hdnea
 
 #EXTINF:-1 tvg-id="9487089" tvg-name="Zee Talkies HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8afbf5d35d83410e9ee9597d9645d3be/version/0" group-title="Movies",Zee Talkies HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=9a8d085a823247b7aa5b74ab275daec3:5440b6e22303ac82b4b688b599f52d72
+#KODIPROP:inputstream.adaptive.license_key=26774cc180334dc898e039925c7659f3:dafea881bcc6b67c06ba4107bbcf5c7d
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Talkies_HD/dash/Zee_Talkies_HD.mpd
 
 #EXTINF:-1 tvg-id="232" group-title="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News18Lokmat.png",News18 Marathi
@@ -1741,7 +1741,7 @@ https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="9504795" tvg-name="Zee Marathi HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/9d03463ae16544f2b87dd2e173b22685/version/0" group-title="Entertainment",Zee Marathi HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=7a4a2b2a02d14d68aed8181a15fdb1b3:a90c99e5551cc75b6cee4210114722c2
+#KODIPROP:inputstream.adaptive.license_key=4700ded31c7349ecafbc85107ea9eec1:633898a50114b2d62cba5853487baa6e
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Marathi_HD/dash/Zee_Marathi_HD.mpd
 
 #EXTINF:-1 tvg-id="612" group-title="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ABP_Majha.png",ABP Majha
@@ -1830,12 +1830,12 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Sonic_Marathi_MOB/WDVLive/index.mpd?__hdn
 
 #EXTINF:-1 tvg-id="9487089" tvg-name="Zee Talkies HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8afbf5d35d83410e9ee9597d9645d3be/version/0" group-title="Movies",Zee Talkies HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=9a8d085a823247b7aa5b74ab275daec3:5440b6e22303ac82b4b688b599f52d72
+#KODIPROP:inputstream.adaptive.license_key=26774cc180334dc898e039925c7659f3:dafea881bcc6b67c06ba4107bbcf5c7d
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Talkies_HD/dash/Zee_Talkies_HD.mpd
 
 #EXTINF:-1 tvg-id="9504795" tvg-name="Zee Marathi HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/9d03463ae16544f2b87dd2e173b22685/version/0" group-title="Entertainment",Zee Marathi HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=7a4a2b2a02d14d68aed8181a15fdb1b3:a90c99e5551cc75b6cee4210114722c2
+#KODIPROP:inputstream.adaptive.license_key=4700ded31c7349ecafbc85107ea9eec1:633898a50114b2d62cba5853487baa6e
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Marathi_HD/dash/Zee_Marathi_HD.mpd
 
 #EXTINF:-1 tvg-id="1394" group-title="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jai_Maharashtra.png",Jai Maharashtra
@@ -1903,7 +1903,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Gold_HD_MOB/WDVLive/index.mpd?__hdne
 
 #EXTINF:-1 tvg-id="9487096" tvg-name="Zee Cinema HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/d2316f5734094e8486486d6911fe6560/version/0" group-title="Movies",Zee Cinema HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=543103c7369d49b5bcf984bdd35784e9:2ee62256dea9d971106df95db1f7abab
+#KODIPROP:inputstream.adaptive.license_key=95a8c082bf934bd2a02f04d2dce79177:194df46bf1f5fd221e18a32a7ac2a31d
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Cinema_HD/dash/Zee_Cinema_HD.mpd
 
 #EXTINF:-1 tvg-id="182" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/b4u_movies.png",B4U Movies
@@ -1948,7 +1948,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/SonyMAX2_MOB/WDVLive/index.mpd?__hdnea__=
 
 #EXTINF:-1 tvg-id="9487096" tvg-name="Zee Cinema HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/d2316f5734094e8486486d6911fe6560/version/0" group-title="Movies",Zee Cinema HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=543103c7369d49b5bcf984bdd35784e9:2ee62256dea9d971106df95db1f7abab
+#KODIPROP:inputstream.adaptive.license_key=95a8c082bf934bd2a02f04d2dce79177:194df46bf1f5fd221e18a32a7ac2a31d
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Cinema_HD/dash/Zee_Cinema_HD.mpd
 
 #EXTINF:-1 tvg-id="9487104" tvg-name="Zee Bollywood" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/e1de996d54864c78b8daf60d63974223/version/0" group-title="Movies",Zee Bollywood
@@ -2078,7 +2078,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/CNTelugu_MOB/WDVLive/index.mpd?__hdnea__=
 
 #EXTINF:-1 tvg-id="9624889" tvg-name="Zee Cinemalu HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/a33211ad359a4cba8b23144e4081ff68/version/0" group-title="Movies",Zee Cinemalu HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=68001251c7e142c78ca3a10d6f37fc6c:ae05520f6215bf45293868d846d9fac8
+#KODIPROP:inputstream.adaptive.license_key=ea0597b227f549248f97c806992fd612:8abe0784363cc0a10bfa0194bcfd8532
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Cinemalu_HD/dash/Zee_Cinemalu_HD.mpd
 
 #EXTINF:-1 tvg-id="543" group-title="Telugu" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Nick_Telugu.png",Nick Telugu
@@ -2139,7 +2139,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Sakshi_tv_MOB/WDVLive/index.mpd?__hdnea__
 
 #EXTINF:-1 tvg-id="9624891" tvg-name="Zee Telugu HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/3e8e7c08dedc48ee9ed67fc0bc4ecf76/version/0" group-title="Entertainment",Zee Telugu HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=ff641ec02aaf469487635085380fafdb:38f95ed9fb09a79f5bde9145c44f3c6a
+#KODIPROP:inputstream.adaptive.license_key=7da96ed441534ce9a4e9cb63bc6ad034:63531be71ff87c6e7fa827562e12c7c5
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Telugu_HD/dash/Zee_Telugu_HD.mpd
 
 #EXTINF:-1 tvg-id="646" group-title="Telugu" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/NTV.png",NTV
@@ -2410,12 +2410,12 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Studio_One_MOB/WDVLive/index.mpd?__hdnea_
 
 #EXTINF:-1 tvg-id="9624891" tvg-name="Zee Telugu HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/3e8e7c08dedc48ee9ed67fc0bc4ecf76/version/0" group-title="Entertainment",Zee Telugu HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=ff641ec02aaf469487635085380fafdb:38f95ed9fb09a79f5bde9145c44f3c6a
+#KODIPROP:inputstream.adaptive.license_key=7da96ed441534ce9a4e9cb63bc6ad034:63531be71ff87c6e7fa827562e12c7c5
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Telugu_HD/dash/Zee_Telugu_HD.mpd
 
 #EXTINF:-1 tvg-id="9624889" tvg-name="Zee Cinemalu HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/a33211ad359a4cba8b23144e4081ff68/version/0" group-title="Movies",Zee Cinemalu HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=68001251c7e142c78ca3a10d6f37fc6c:ae05520f6215bf45293868d846d9fac8
+#KODIPROP:inputstream.adaptive.license_key=ea0597b227f549248f97c806992fd612:8abe0784363cc0a10bfa0194bcfd8532
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Cinemalu_HD/dash/Zee_Cinemalu_HD.mpd
 
 #EXTINF:-1 tvg-id="1799" group-title="Telugu" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Studio_Yuva_Alpha.png",Studio Yuva Alpha
@@ -2483,7 +2483,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/News_360_MOB/WDVLive/index.mpd?__hdnea__=
 
 #EXTINF:-1 tvg-id="9624891" tvg-name="Zee Telugu HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/3e8e7c08dedc48ee9ed67fc0bc4ecf76/version/0" group-title="Entertainment",Zee Telugu HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=ff641ec02aaf469487635085380fafdb:38f95ed9fb09a79f5bde9145c44f3c6a
+#KODIPROP:inputstream.adaptive.license_key=7da96ed441534ce9a4e9cb63bc6ad034:63531be71ff87c6e7fa827562e12c7c5
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Telugu_HD/dash/Zee_Telugu_HD.mpd
 
 #EXTINF:-1 tvg-id="3087" group-title="Telugu" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sai_TV_Telugu.png",Sai TV Telugu
@@ -4081,7 +4081,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Real_News_Kerala_MOB/WDVLive/index.mpd?__
 
 #EXTINF:-1 tvg-id="9624895" tvg-name="Zee Keralam HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/cb2d529482614186a8ba29d47346902b/version/0" group-title="Entertainment",Zee Keralam HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=143e914a457d4b94a0bf5c8253bfe050:671bd9ed633bbb3424942f1c78fb4a92
+#KODIPROP:inputstream.adaptive.license_key=7850ad3146e64b1c921d2fb545b63d0b:89d3ff86f8ab00ba3936544165ee0eeb
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Keralam_HD/dash/Zee_Keralam_HD.mpd
 
 #EXTINF:-1 tvg-id="1643" group-title="Malayalam" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Harvest_TV_24x7.png",Harvest TV 24x7
@@ -5336,7 +5336,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Janam_Tamil_MOB/WDVLive/index.mpd?__hdnea
 
 #EXTINF:-1 tvg-id="9649000" tvg-name="Zee Thirai" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/cef53bf4b0cd4d79913452f6f645c13f/version/0" group-title="Movies",Zee Thirai
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=192ae80c76614c5991989413ec3b27ed:a98994f126200ccd77236f056e6f89e6
+#KODIPROP:inputstream.adaptive.license_key=eefaf50b163b4623be18bae836e3384f:3c19d51c456e4b14730b839d454ec2eb
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Thirai_SD/dash/Zee_Thirai_SD.mpd
 
 #EXTINF:-1 tvg-id="3059" group-title="Tamil" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Thanti_One.png",Thanthi One
@@ -5409,7 +5409,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Discovery_Channel_Ben_MOB/WDVLive/index.m
 
 #EXTINF:-1 tvg-id="9504796" tvg-name="Zee Bangla HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/dd74c3cd17ff4baca804bce74b811384/version/0" group-title="Entertainment",Zee Bangla HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=dfb7340ac222430fb8539fee1635ec22:3496ea723f39eb64b2d58266dce06ec5
+#KODIPROP:inputstream.adaptive.license_key=33c19da97b064bd29150631e208f3162:31d048253bbb4a28d70bd9cff1eb4cd5
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Bangla_HD/dash/Zee_Bangla_HD.mpd
 
 #EXTINF:-1 tvg-id="672" group-title="Bengali" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ABP_Ananda.png",ABP Ananda
@@ -5589,7 +5589,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Tribe_TV_MOB/WDVLive/index.mpd?__hdnea__=
 
 #EXTINF:-1 tvg-id="9504796" tvg-name="Zee Bangla HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/dd74c3cd17ff4baca804bce74b811384/version/0" group-title="Entertainment",Zee Bangla HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=dfb7340ac222430fb8539fee1635ec22:3496ea723f39eb64b2d58266dce06ec5
+#KODIPROP:inputstream.adaptive.license_key=33c19da97b064bd29150631e208f3162:31d048253bbb4a28d70bd9cff1eb4cd5
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Bangla_HD/dash/Zee_Bangla_HD.mpd
 
 #EXTINF:-1 tvg-id="2027" group-title="Bengali" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/raatdinbangla.png",Raatdin Bangla
@@ -5734,7 +5734,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Udaya_Movies_MOB/WDVLive/index.mpd?__hdne
 
 #EXTINF:-1 tvg-id="9624893" tvg-name="Zee Kannada HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/37b5fbe79db34171a1873cf889458149/version/0" group-title="Entertainment",Zee Kannada HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1dcc577cc58143e1bd471854238c2edb:7f9f1f1ae0e7b0582e9258d03c1cb30a
+#KODIPROP:inputstream.adaptive.license_key=0258518a456b4314a87a818dfa89dba8:62cf15ffd10960dd607695ec11989b5d
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Kannada_HD/dash/Zee_Kannada_HD.mpd
 
 #EXTINF:-1 tvg-id="713" group-title="Kannada" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DD9_chandana_kannada.png",DD9 chandana (kannada)
@@ -5865,7 +5865,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Aastha_Kannada_MOB/WDVLive/index.mpd?__hd
 
 #EXTINF:-1 tvg-id="9624893" tvg-name="Zee Kannada HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/37b5fbe79db34171a1873cf889458149/version/0" group-title="Entertainment",Zee Kannada HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1dcc577cc58143e1bd471854238c2edb:7f9f1f1ae0e7b0582e9258d03c1cb30a
+#KODIPROP:inputstream.adaptive.license_key=0258518a456b4314a87a818dfa89dba8:62cf15ffd10960dd607695ec11989b5d
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Kannada_HD/dash/Zee_Kannada_HD.mpd
 
 #EXTINF:-1 tvg-id="1370" group-title="Kannada" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Colors_Kannada_SD.png",Colors Kannada SD
@@ -5917,7 +5917,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Nakshatra_Digital_TV_MOB/WDVLive/index.mp
 
 #EXTINF:-1 tvg-id="9624893" tvg-name="Zee Kannada HD" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/37b5fbe79db34171a1873cf889458149/version/0" group-title="Entertainment",Zee Kannada HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1dcc577cc58143e1bd471854238c2edb:7f9f1f1ae0e7b0582e9258d03c1cb30a
+#KODIPROP:inputstream.adaptive.license_key=0258518a456b4314a87a818dfa89dba8:62cf15ffd10960dd607695ec11989b5d
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Kannada_HD/dash/Zee_Kannada_HD.mpd
 
 #EXTINF:-1 tvg-id="2743" group-title="Kannada" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Power_TV.png",Power TV
@@ -7234,7 +7234,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/PunjabiShorts_MOB/WDVLive/index.mpd?__hdn
 
 #EXTINF:-1 tvg-id="9624894" tvg-name="Zee Bangla Sonar" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/f508a6918aac461382774c4a34f50c30/version/0" group-title="Entertainment",Zee Bangla Sonar
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=228a3aa4140a4bad94d0d0cf639ee200:d50982789924cc445b849eedd04a87d0
+#KODIPROP:inputstream.adaptive.license_key=58319e79c4a2462b86c5d0b2573bab0f:d69895aef355b7257d7107d927a210b2
 https://d2o8pibksxtln6.cloudfront.net/live/media/ZEE_Bangla_Sonar/dash/ZEE_Bangla_Sonar.mpd
 
 #EXTINF:-1 tvg-id="3478" group-title="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ose-101ads-montreal.png",Stingray Classic Rock
@@ -7914,7 +7914,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/B4U_Bhojpuri_MOB/WDVLive/index.mpd?__hdne
 
 #EXTINF:-1 tvg-id="9624887" tvg-name="Zee Biskope" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/bb424c74bfd54392a86b4a343996b6d5/version/0" group-title="Movies",Zee Biskope
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1b0da38227a7470fb168bcf6fd0ce1d1:b61b8a5544605a99053a90adb09a94d3
+#KODIPROP:inputstream.adaptive.license_key=d5cf389166f24f209c138d34e72682bb:d37099c0590c339b2c9cdd6faa98db0e
 https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Biskope/dash/Zee_Biskope.mpd
 
 #EXTINF:-1 tvg-id="1798" group-title="Bhojpuri" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Pasand.png",Pasand
