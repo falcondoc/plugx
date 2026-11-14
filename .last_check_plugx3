@@ -1,9 +1,8 @@
 {
-  "updated_at": "2026-11-14T11:04:10.606872+00:00",
+  "updated_at": "2026-11-14T17:26:53.794208+00:00",
   "primary": "https://raw.githubusercontent.com/falcondoc/plugx/main/plugx2.m3u",
   "fallback": "https://raw.githubusercontent.com/qwerty180506/Geo/main/jiotv_cf.m3u",
   "zee_sources": [
-    "https://premiumplugx.me/vzy/playlist.php",
     "https://pastyx.pages.dev/api/paste/vzy-playlist-m3u/raw"
   ],
   "total": 1161,

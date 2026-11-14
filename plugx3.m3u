@@ -1,5 +1,5 @@
 #EXTM3U
-#DATE:- 2026-11-14 11:04 UTC
+#DATE:- 2026-11-14 17:26 UTC
 # plugx3 hybrid + Zee from vzy/pastyx only (no Jio Zee)
 # Primary plugx2: 1106
 # Fallback Geo: 7
@@ -7818,7 +7818,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_Oriya_MOB/WDVLive/index.mpd?__hdnea__=
 #EXTHTTP:{"cookie":"__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Kanak_TV_MOB/WDVLive/index.mpd?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14&__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
 
-#EXTINF:-1 tvg-id="9487093" tvg-name="Zee Sarthak" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/9e787a13afa1447abde693bf57f7f9db/version/0" group-title="Entertainment",Zee Sarthak
+#EXTINF:-1 tvg-id="9487093" tvg-name="Zee Sarthak" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/c86007cd6db744eeb8b6f8431e4f363a/version/0" group-title="Entertainment",Zee Sarthak
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=7470509286734594893f5c8dc3cff239:a2d290d395a75226f90e7408be528c26
 https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Sarthak/dash/Zee_Sarthak.mpd
