@@ -1,5 +1,5 @@
 #EXTM3U
-#DATE:- 2026-11-14 00:32 UTC
+#DATE:- 2026-11-14 11:04 UTC
 # plugx3 hybrid + Zee from vzy/pastyx only (no Jio Zee)
 # Primary plugx2: 1106
 # Fallback Geo: 7
@@ -5905,7 +5905,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Sirikannada_MOB/WDVLive/index.mpd?__hdnea
 
 #EXTINF:-1 tvg-id="9649339" tvg-name="Zee Power" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/c3166a46bb1945638c6c62bd2aa8bff5/version/0" group-title="Entertainment",Zee Power
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1faf74bf308a4eef90f4c5d6ac6f7888:75f473d8a684b4c982055b6b8b81399b
+#KODIPROP:inputstream.adaptive.license_key=d86d79822a884b50afe3d1321a593477:df13163d722add2997398e4922766c0f
 https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Power/dash/Zee_Power.mpd
 
 #EXTINF:-1 tvg-id="2253" group-title="Kannada" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Nakshatra_Digital_TV.png",Nakshatra Digital TV
