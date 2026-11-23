@@ -1,5 +1,5 @@
 #EXTM3U
-#DATE:- 2026-11-23 04:37 UTC
+#DATE:- 2026-11-23 19:38 UTC
 # plugx3 hybrid + Zee from vzy/pastyx only (no Jio Zee)
 # Primary plugx2: 1106
 # Fallback Geo: 7
@@ -2680,10 +2680,10 @@ https://nw18live.cdn.jio.com/bpk-tv/News18_UP_Uttarakhand_NW18_MOB/output01/inde
 #EXTHTTP:{"cookie":"__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14"}
 https://nw18live.cdn.jio.com/bpk-tv/News18_Rajasthan_NW18_MOB/output01/index.m3u8?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14&__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
 
-#EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
+#EXTINF:-1 tvg-id="9825959" tvg-name="ZEE Bharat" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/f852d000d92b402e9693d41a1cd6528b/version/0" group-title="Entertainment",ZEE Bharat
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1de4f57aba8041febd722d95e6cdc1e8:ace7117cc9afba047ee7dc193cf77f48
-https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=6e5cabf703ee401f8da35db218cbbafc:75c32fef085dd9744bbd3d2a8db143b1
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_BHARAT/dash/Zee_BHARAT.mpd
 
 #EXTINF:-1 tvg-id="655" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News18PunjabHaryana.png",News18 Punjab Haryana
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2692,20 +2692,20 @@ https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 #EXTHTTP:{"cookie":"__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/News18PunjabHaryana_MOB/WDVLive/index.mpd?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14&__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
 
-#EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
+#EXTINF:-1 tvg-id="9825963" tvg-name="Zee MP Chattisgarh" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/3dd06e1b5f9f498987b4bad81a153c56/version/0" group-title="Entertainment",Zee MP Chattisgarh
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1de4f57aba8041febd722d95e6cdc1e8:ace7117cc9afba047ee7dc193cf77f48
-https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=bcda6062ff7848dc8f1cf322bd65f399:5584aa963c8d84f0a005b33aac1a3ec9
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_MP_Chattisgarh/dash/Zee_MP_Chattisgarh.mpd
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=1de4f57aba8041febd722d95e6cdc1e8:ace7117cc9afba047ee7dc193cf77f48
 https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
-#EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
+#EXTINF:-1 tvg-id="9825961" tvg-name="Zee Delhi NCR Haryana" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/ce7d48501c344dbb9fbcbd227a9fc6c7/version/0" group-title="Entertainment",Zee Delhi NCR Haryana
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1de4f57aba8041febd722d95e6cdc1e8:ace7117cc9afba047ee7dc193cf77f48
-https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=5469454a452f4c69baae01fb4b1244eb:1fdcee777f174ad833aed40fe1ed33a2
+https://d1iwj24qiokrul.cloudfront.net/live/media/ZEE_NCR/dash/ZEE_NCR.mpd
 
 #EXTINF:-1 tvg-id="768" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jan_TV.png",Jan TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -4271,10 +4271,10 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Oye_Music_MOB/WDVLive/index.mpd?__hdnea__
 #EXTHTTP:{"cookie":"__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14"}
 https://nw18live.cdn.jio.com/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/index.m3u8?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14&__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
 
-#EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
+#EXTINF:-1 tvg-id="9825964" tvg-name="Zee Business" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/0eee91d012274ebd863d40ddfb7e497d/version/0" group-title="Entertainment",Zee Business
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1de4f57aba8041febd722d95e6cdc1e8:ace7117cc9afba047ee7dc193cf77f48
-https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=3b8d8bf190a44aaaa845b3ad7fdee95a:86e31ded4e6ed33d0c1c16f69f39ab20
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Business/dash/Zee_Business.mpd
 
 #EXTINF:-1 tvg-id="1907" group-title="Business News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ET_Now_Swadesh.png",ET Now Swadesh
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -7886,10 +7886,10 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Sidharth_Bhakti_MOB/WDVLive/index.mpd?__h
 #EXTHTTP:{"cookie":"__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Kiran_MOB/WDVLive/index.mpd?__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14&__hdnea__=st=1794391211~exp=1794477611~acl=/*~hmac=7042ea21caf942b396ff9809c4b38c56a48ecd87c3eca273ab372703f4da7b14
 
-#EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
+#EXTINF:-1 tvg-id="9825962" tvg-name="Zee Bihar Jharkhand" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/90c072dc5c8a4136a167cadeb02d1445/version/0" group-title="Entertainment",Zee Bihar Jharkhand
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1de4f57aba8041febd722d95e6cdc1e8:ace7117cc9afba047ee7dc193cf77f48
-https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
+#KODIPROP:inputstream.adaptive.license_key=6d477b6e5624487badfad365fca4d9e8:ca01ec1039acbaba0e47dddc9c6b3e42
+https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Bihar_Jharkhand/dash/Zee_Bihar_Jharkhand.mpd
 
 #EXTINF:-1 tvg-id="741" group-title="Bhojpuri" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sangeet_Bhojpuri.png",Sangeet Bhojpuri
 #KODIPROP:inputstream.adaptive.license_type=clearkey
