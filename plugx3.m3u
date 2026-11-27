@@ -1,5 +1,5 @@
 #EXTM3U
-#DATE:- 2026-11-26 17:57 UTC
+#DATE:- 2026-11-27 02:31 UTC
 # plugx3 hybrid + Zee from vzy/pastyx only (no Jio Zee)
 # Primary plugx2: 1106
 # Fallback Geo: 7
@@ -2682,7 +2682,7 @@ https://nw18live.cdn.jio.com/bpk-tv/News18_Rajasthan_NW18_MOB/output01/index.m3u
 
 #EXTINF:-1 tvg-id="9825959" tvg-name="ZEE Bharat" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/f852d000d92b402e9693d41a1cd6528b/version/0" group-title="Entertainment",ZEE Bharat
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=e55734094d514d4bad882ad5b5cbd35c:edb981d3bec7c99b90413ec038a1dfe3
+#KODIPROP:inputstream.adaptive.license_key=e6665ef7e17242b0a5ba1bfbe7c2377c:dd41ad9049bc1ee57638b3e510db0ac4
 https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_BHARAT/dash/Zee_BHARAT.mpd
 
 #EXTINF:-1 tvg-id="655" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News18PunjabHaryana.png",News18 Punjab Haryana
@@ -2704,7 +2704,7 @@ https://d1iwj24qiokrul.cloudfront.net/live/media/Zing/dash/Zing.mpd
 
 #EXTINF:-1 tvg-id="9825961" tvg-name="Zee Delhi NCR Haryana" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/ce7d48501c344dbb9fbcbd227a9fc6c7/version/0" group-title="Entertainment",Zee Delhi NCR Haryana
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=e6bbae001d00400594bc3be116aab3a2:bd4447af85d9504560ef58303056ed04
+#KODIPROP:inputstream.adaptive.license_key=5df9a03fe9494986b820995af2e18b6a:83e1d73f47d8fcbcb17e471cf6ac1db9
 https://d1iwj24qiokrul.cloudfront.net/live/media/ZEE_NCR/dash/ZEE_NCR.mpd
 
 #EXTINF:-1 tvg-id="768" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jan_TV.png",Jan TV
@@ -4273,7 +4273,7 @@ https://nw18live.cdn.jio.com/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/index.m3u8?__hd
 
 #EXTINF:-1 tvg-id="9825964" tvg-name="Zee Business" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/0eee91d012274ebd863d40ddfb7e497d/version/0" group-title="Entertainment",Zee Business
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=91c794a037d041f2a13b4dbaebd4f8f4:8cc026b2de8150ae530ba1a7a9d46125
+#KODIPROP:inputstream.adaptive.license_key=c3932168eaa84f37856df2576ed6108e:3556f71a2930fe39259b95d80599007b
 https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Business/dash/Zee_Business.mpd
 
 #EXTINF:-1 tvg-id="1907" group-title="Business News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ET_Now_Swadesh.png",ET Now Swadesh
