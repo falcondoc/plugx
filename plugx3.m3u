@@ -1,5 +1,5 @@
 #EXTM3U
-#DATE:- 2026-11-28 05:26 UTC
+#DATE:- 2026-11-28 16:28 UTC
 # plugx3 hybrid + Zee from vzy/pastyx only (no Jio Zee)
 # Primary plugx2: 1106
 # Fallback Geo: 7
@@ -2694,7 +2694,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/News18PunjabHaryana_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="9825963" tvg-name="Zee MP Chattisgarh" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/3dd06e1b5f9f498987b4bad81a153c56/version/0" group-title="Entertainment",Zee MP Chattisgarh
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=bcda6062ff7848dc8f1cf322bd65f399:5584aa963c8d84f0a005b33aac1a3ec9
+#KODIPROP:inputstream.adaptive.license_key=bcda6062ff7848dc8f1cf322bd65f399:30b7b28f0ea5dc33e8816c7911db30da
 https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_MP_Chattisgarh/dash/Zee_MP_Chattisgarh.mpd
 
 #EXTINF:-1 tvg-id="9487091" tvg-name="Zing" tvg-logo="https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0" group-title="Music",Zing
